@@ -1,0 +1,345 @@
+<p>
+
+</p>
+<p>
+    Problem 1: Could simulating the motion of the planets in a solar system be performed well in a shared memory or a
+    distributed memory approach using high-performance computing? For each solar system address the following items and
+    explain your reason why.
+</p>
+<p>
+
+    1. Can it be executed on a shared memory environment?
+</p>
+<p>
+
+    2. Will the program run well in a shared memory environment, why or why not? Hint: Think about any bottlenecks that
+    might be encountered.
+</p>
+<p>
+
+    3. Can it be executed on a distributed memory environment?
+</p>
+<p>
+
+    4. Will the program run well in a distributed memory environment, why or why not? Hint: Think about any bottlenecks
+    that might be encountered.
+</p>
+<p>
+
+    5. Would you choose to run this in a shared memory environment or in a distributed memory environment? Explain why.
+</p>
+<p>
+
+</p>
+<p>
+    Solar system A: 9 planets
+</p>
+<p>
+
+</p>
+<p>
+    Solar system B: 1,000 planets
+</p>
+<p>
+
+</p>
+<p>
+    Solar system C: 100,000 planets
+</p>
+<p>
+
+</p>
+<p>
+    Solar system D: 100,000,000 planets
+</p>
+<p>
+
+</p>
+<p>
+    Solar system E: 100,000,000,000 planets
+</p>
+<p>
+
+</p>
+<p>
+
+</p>
+<p>
+
+</p>
+<p>
+    SOLUTION:
+</p>
+<p>
+    While all could be executed in both shared memory or distributed memory environments the size of the solar system is
+    an important consideration. For small solar system sizes enough threads can be created on the physical node to
+    simulate all of the planets. However, as the number of planets increases the number of threads will become too large
+    to be supported on a single physical node efficiently and at that point it would be good to move to a distributed
+    memory approach. The key is for the students to see that the size of the problem is important in determining whether
+    shared or distributed memory should be used.
+</p>
+<p>
+
+</p>
+<p>
+
+</p>
+<p>
+    Problem 2: Review Problem 1 and identify how you would combine shared memory and distributed memory approaches to
+    improve performance of the program? Assume that you have a function PLANET_MODEL(PLANET_NUMBER, PLANET INFORMATION )
+    that takes the planet number and planet information as input (i.e., this function is called once for each planet)
+    and returns the position of the planet at the next timestep.
+</p>
+<p>
+
+</p>
+<p>
+    Assume that you have a supercomputer with 1,000,000 physical nodes and each node has one processing element. Explain
+    how you would structure the program and what parts would be shared memory and what would be distributed memory. What
+    language would you use for each part (shared memory and distributed memory)? Perform this for a single timestep.
+</p>
+<p>
+
+</p>
+<p>
+    SOLUTION: The key is to see that you can use a shared memory parallel programming language, such as OpenMP or
+    OpenACC, on a single physical node, and then use a distributed memory parallel programming language, such as MPI, to
+    distribute the problem among multiple physical nodes.
+</p>
+<p>
+
+</p>
+<p>
+    The problem difficulty could be increased if one moves beyond a single timestep because you need to handle
+    synchronizing the system and passing needed data between processes to compute the next timestep.
+</p>
+<p>
+
+</p>
+<p>
+
+</p>
+<p>
+    Problem 3: A planar mesh is a 2D mesh of nodes with each node having a north, south, east, and west link. Traffic is
+    routed from node to node from source to destination and can take any direction. What is the bisection bandwidth of a
+    3x3 square planar mesh (9 physical nodes)?
+</p>
+<p>
+
+</p>
+<p>
+    SOLUTION: The answer is 3 because the bisection bandwidth of a square planar mesh is the square root of the number
+    of physical nodes in the network. The problem could be expanded by generalizing the size of the square planar mesh.
+</p>
+<p>
+
+</p>
+<p>
+
+</p>
+<p>
+    PROBLEM ON IDENTIFYING BOTTLENECKS
+</p>
+<p>
+
+</p>
+<p>
+    Problem 4: A 3x3 planar mesh network is shown below. Determine the number of hops for a message traveling from all
+    nodes other than node F to node F. Use only the shortest path.
+</p>
+<p>
+
+</p>
+<p>
+
+</p>
+<p>
+    A-----B-----C
+</p>
+<p>
+    | | |
+</p>
+<p>
+    | | |
+</p>
+<p>
+    D-----E-----F
+</p>
+<p>
+    | | |
+</p>
+<p>
+    | | |
+</p>
+<p>
+    G-----H-----I
+</p>
+<p>
+
+</p>
+<p>
+    SOLUTION: See table below. Some have multiple paths, but the number of hops for the shortest path does not change.
+    The key takeaway is that the network topology will impact the time (number of hops in this case) that a message
+    takes to get from the source to the destination.
+</p>
+<p>
+
+</p>
+
+<table>
+    <tr>
+        <td>Source
+        </td>
+        <td>Destination
+        </td>
+        <td>Path
+        </td>
+        <td>Number of Hops
+        </td>
+    </tr>
+    <tr>
+        <td>A
+        </td>
+        <td>F
+        </td>
+        <td>
+            1. A->B->C->F
+            <p>
+
+                2. A->B->E->F
+            <p>
+
+                3. A->D->E->F
+        </td>
+        <td>3
+        </td>
+    </tr>
+    <tr>
+        <td>B
+        </td>
+        <td>F
+        </td>
+        <td>
+            1. B->C->F
+            <p>
+
+                2. B->E->F
+            <p>
+
+        </td>
+        <td>2
+        </td>
+    </tr>
+    <tr>
+        <td>C
+        </td>
+        <td>F
+        </td>
+        <td>C->F
+        </td>
+        <td>1
+        </td>
+    </tr>
+    <tr>
+        <td>D
+        </td>
+        <td>F
+        </td>
+        <td>D->E->F
+        </td>
+        <td>2
+        </td>
+    </tr>
+    <tr>
+        <td>E
+        </td>
+        <td>F
+        </td>
+        <td>E->F
+        </td>
+        <td>1
+        </td>
+    </tr>
+    <tr>
+        <td>F
+        </td>
+        <td>F
+        </td>
+        <td>N/A
+        </td>
+        <td>N/A
+        </td>
+    </tr>
+    <tr>
+        <td>G
+        </td>
+        <td>F
+        </td>
+        <td>
+            1. G->H->I->F
+            <p>
+
+                2. G->H->E->F
+            <p>
+
+                3. G-> D->E->F
+        </td>
+        <td>3
+        </td>
+    </tr>
+    <tr>
+        <td>H
+        </td>
+        <td>F
+        </td>
+        <td>
+            1. H->E->F
+            <p>
+
+                2. H->I->F
+        </td>
+        <td>2
+        </td>
+    </tr>
+    <tr>
+        <td>I
+        </td>
+        <td>F
+        </td>
+        <td>I->F
+        </td>
+        <td>1
+        </td>
+    </tr>
+</table>
+
+
+<p>
+
+</p>
+<p>
+
+</p>
+<p>
+
+</p>
+<p>
+    Problem 5: Look at the solutions to Problem 4 and the paths that are possible for each message. Identify the
+    bottleneck nodes in the system and make a recommendation to reduce the number of messages traveling through each
+    bottleneck node.
+</p>
+<p>
+
+</p>
+<p>
+    SOLUTION: TBD
+</p>
+<p>
+
+</p>
+<p>
+
+</p>
+<p>
+
+</p>
