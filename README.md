@@ -140,7 +140,7 @@ Please use the following tables to determine how to upload your file:
    </td>
    <td><strong>File Type</strong>
    </td>
-   <td><strong>File Name</strong>
+   <td><strong>File Name / Extension</strong>
    </td>
   </tr>
   <tr>
