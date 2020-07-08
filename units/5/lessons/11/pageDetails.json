@@ -1,0 +1,4 @@
+{
+	"title": "Unit 5 Lesson 11: Hello World in MPI",
+	"description": "This lesson allows students to go through an MPI program that print's 'Hello World' from each process."
+}

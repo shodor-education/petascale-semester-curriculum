@@ -1,0 +1,4 @@
+{
+	"title": "Unit 5 Lesson 5: Performance Evaluation of MPI Programs",
+	"description": "This lesson will discuss ways you can make your MPI code more efficient and make necessary modifications to achieve speedup. The focus of the module would be on using some MPI routines that capture compute time for your application. It will also explore different communication modes that are present in MPI libraries that could be implemented to gain performance."
+}
