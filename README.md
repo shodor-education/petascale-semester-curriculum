@@ -10,7 +10,7 @@
  
 <h3 align="center">Petascale Semester Curriculum</h3>
   <p align="center">
-    The Blue Waters Parallel Computational STEM Curriculum Capstone is a a collection of 11 units and a total of 97 lessons that covers parallel computing and its applications. Units are groupings of lessons (about 6 or 12) with materials for each lesson designed to last 25 minutes. You can also view the materials on <a href="http://shodor.org/petascale/materials/semesterCurriculum">our website.</a> 
+    The Blue Waters Parallel Computational STEM Curriculum Capstone is a a collection of 11 units and a total of 97 lessons that covers parallel computing and its applications. Units are groupings of lessons (about 6 or 12) with materials for each lesson designed to last 25 minutes. The materials are also hosted on <a href="http://shodor.org/petascale/materials/semesterCurriculum">Shodor's Petascale site.</a> 
     <br />
   </p>
 </p>
@@ -44,7 +44,7 @@ This project is a component of the Blue Waters education initiatives at the Univ
 <!-- HOW TO USE -->
 ## Using the Materials
 
-These resources can be helpful both for *instructors* looking to integrate parts of parallel computing material into their course or in developing their own parallel computing course and for *students* looking to learn more about parallel computing in general. The curriculum materials can also be accesed through [our website](http://shodor.org/petascale/materials/semesterCurriculum/units/).
+These resources can be helpful both for *instructors* looking to integrate parts of parallel computing material into their course or in developing their own parallel computing course and for *students* looking to learn more about parallel computing in general. The curriculum materials can be accesed on [Shodor's Petascale site](http://shodor.org/petascale/materials/semesterCurriculum/units/).
 
 For instructors:
 
