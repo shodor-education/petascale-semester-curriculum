@@ -2,7 +2,7 @@
 <p>
 Problem 1:  Unroll the following pseudocode loop 4.  Assume that array y has 16 elements.
 </p>
-<br />
+
 <p>
 Array y is an array of integers
 </p>
@@ -15,16 +15,16 @@ FOR x = 1 to n
 <p>
 END FOR
 </p>
-<br />
-<br />
+
+
 <p>
 SOLUTION:  
 </p>
-<br />
+
 <p>
 Unrolled 4 times:
 </p>
-<br />
+
 <p>
 Array y is an array of integers
 </p>
@@ -46,17 +46,17 @@ y[x+((n*2)/4)] ß y[x+((n*2)/4)] * 7
 <p>
 END FOR
 </p>
-<br />
+
 <p>
 Must make sure to update the loop indices correctly.
 </p>
-<br />
-<br />
+
+
 <p>
 Problem 2:  Estimate the performance improvement of running the unrolled loop on a vector architecture compared to the original (unrolled loop) code.  Assume that each array update instruction takes time A and that 1 check and update of the loop conditions requires time 2A.
 </p>
-<br />
-<br />
+
+
 <p>
 SOLUTION:  The unrolled loop should speed-up the execution time by an amount given by looking at the time required for 4 array updates in the OLD (original code) and NEW (unrolled loop) versions.
 </p>
@@ -66,22 +66,22 @@ SOLUTION:  The unrolled loop should speed-up the execution time by an amount giv
 <p>
 OLD = (A + 2A) * 4 = 12A &egrave; (A + 2A) is time for 1 iteration, multiply by 4 to find time for 4 iterations
 </p>
-<br />
+
 <p>
 NEW = (4A + 2A) = 6A &egrave; 4 array updates, 4A time, plus 1 loop overhead, 2A
 </p>
-<br />
+
 <p>
 Speed-up = OLD / NEW = 12A / 6A = 2 
 </p>
-<br />
-<br />
+
+
 <p>
 Problem 3:  Apply Foster’s methodology to the solar system modeling problem for a solar system with 9 planets.  Make sure to identify one or more types of processing elements in Flynn’s taxonomy would be appropriate for your algorithm to run on and justify your selection(s).  
 </p>
-<br />
-<br />
-<br />
+
+
+
 <p>
 SOLUTION:  Many solutions.  Make sure the students go through all 4 steps and look at load-balancing, communication overhead, and what and how to share and communicate data.  Make sure students identify an architecture type from Flynn’s taxonomy to implement the code on.  It is suggested to have the students present their solutions in class.
 </p>
