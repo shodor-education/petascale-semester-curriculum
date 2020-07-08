@@ -1,4 +1,4 @@
 {
-	"title": "Unit 5 Lesson 9: MPI Applications",
-	"description": "This lesson explores MPI applications in science (e.g. engineering and biology) and dives into MPI examples such as Smith-Waterman simulations, pandemic simulations, and other widely used examples."
+	"title": "Unit 5 Lesson 9: N-Body Mechanics in MPI",
+	"description": "This lesson explains n-body simulations as a distributed simulation. It uses real life example code, using gravity forces and is followed up by an activity to parallelize N-body simulations using Lennerd-Jones instead of gravity forces."
 }
