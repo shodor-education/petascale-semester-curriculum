@@ -1,0 +1,15 @@
+<script>
+	var assessmentUrl = 'https://github.com/shodor-education/petascale-semester-curriculum/raw/master/units/1/lessons/1/assessmentFile.pdf';
+	var googleDocsUrl = 'https://docs.google.com/viewer?url=' + assessmentUrl;
+</script>
+  
+<p>
+	Download the Sample Assessment <a id="download">here</a>
+    or view in browser with Google Docs Viewer <a id="browser">here</a>.
+</p>
+
+<script>
+	document.getElementById("download").setAttribute("href", assessmentUrl);
+   	document.getElementById("browser").setAttribute("href", googleDocsUrl);
+	document.getElementById("browser").setAttribute("target", "_blank");
+</script>

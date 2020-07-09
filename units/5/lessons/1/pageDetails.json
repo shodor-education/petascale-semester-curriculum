@@ -1,0 +1,4 @@
+{
+	"title": "Unit 5 Lesson 1: Wave Propagation in MPI",
+	"description": "This lesson explores wave propogation code that solves a simple two dimensional PDE. Using the pebble in the pond example, it makes waves from the pebble's drop point and shows how waves reflect when they hit the boundary."
+}  
