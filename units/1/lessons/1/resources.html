@@ -1,2 +1,18 @@
 <h2>Resources:</h2>
-<p><a href="https://github.com/shodor-education/petascale-semester-curriculum/raw/master/units/1/lessons/1/assessmentFile.pdf">Assessment File</a></p>
+
+<script>
+    var baseGithubLink = 'https://github.com/shodor-education/petascale-semester-curriculum/raw/master/units/1/lessons/1/';
+    var baseGoogleDocsLink = 'https://docs.google.com/viewer?url=' + baseGithubLink;
+    var slides = "slides.pdf";
+</script>
+
+<p>
+    Lesson Slides: <a id="slidesDownload">Download here</a>
+    or view in browser with <a id="slidesBrowser">Google Docs Viewer</a>.
+</p>
+
+<script>
+    document.getElementById("slidesDownload").setAttribute("href", baseGithubLink + slides);
+    document.getElementById("slidesBrowser").setAttribute("href", baseGoogleDocsLink + slides);
+    document.getElementById("slidesBrowser").setAttribute("target", "_blank");
+</script>
