@@ -1,4 +1,5 @@
 {
     "title": "Unit 2 Lesson 1: Types of Parallel Work - Data and Task Parallelism",
-    "description": "This lesson defines the ideas of data parallelism and task parallelism. Various problems are examined, as well as identifying aspects of these problems as either data parallelism or task parallelism."
+    "description": "This lesson defines the ideas of data parallelism and task parallelism. Various problems are examined, as well as identifying aspects of these problems as either data parallelism or task parallelism.",
+    "developer": ""
 }
