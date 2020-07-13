@@ -105,7 +105,7 @@ Contributions are what make the open source community such an amazing place to b
   <tr>
    <td>Unit Sample Assessment
    </td>
-   <td>HTML
+   <td>Resource - PDF/DOCX
    </td>
    <td>"assessment.html"
    </td>
@@ -158,7 +158,7 @@ Contributions are what make the open source community such an amazing place to b
   <tr>
    <td>Lesson Sample Assessment
    </td>
-   <td>HTML
+   <td>Resource - PDF/DOCX
    </td>
    <td>"assessment.html"
    </td>
@@ -167,7 +167,7 @@ Contributions are what make the open source community such an amazing place to b
   <tr>
    <td>Presentation Slides
    </td>
-   <td>Resource - Powerpoint Presentation
+   <td>Resource - PDF/PPT
    </td>
    <td>.ppt
    </td>
@@ -183,7 +183,7 @@ Contributions are what make the open source community such an amazing place to b
   <tr>
    <td>Instructor Guide
    </td>
-   <td>Resource - Word Document
+   <td>Resource - PDF/DOCX
    </td>
    <td>.docx
    </td>
@@ -191,7 +191,7 @@ Contributions are what make the open source community such an amazing place to b
   <tr>
    <td>Code Example
    </td>
-   <td>Resource - ZIP file
+   <td>Resource - ZIP
    </td>
    <td>.zip
    </td>
@@ -207,7 +207,7 @@ Contributions are what make the open source community such an amazing place to b
   <tr>
    <td>Exercise Instructions for Students
    </td>
-   <td>Resource - Word Document
+   <td>Resource - PDF/DOCX
    </td>
    <td>.docx
    </td>
@@ -223,7 +223,7 @@ Contributions are what make the open source community such an amazing place to b
   </tr>
    <td>References and Further Reading
    </td>
-   <td>Resource - Word Document
+   <td>Resource - PDF/DOCX
    </td>
    <td>.docx
    </td>
