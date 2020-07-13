@@ -68,18 +68,6 @@ Contributions are what make the open source community such an amazing place to b
 3. Make a new branch
 4. Using the tables below, determine if your file is to be uploaded as a resource (indicated in the file type column)
 
-    * If you would like to update the description for a unit or lesson, simply edit the description line in the appropriate .json file
-
-    * If the file type *is not* preceded by "resource" in the table, you will have to upload your materials by editing the existing version of the HTML file that is in your branch. Make sure that the file you are editing is in the correct folder and is named correctly according to the table.
-        * You may also make changes to the curriculum material using your own text editor instead of directly editing the HTML. You can use a tool such as [Word 2 Clean HTML](https://word2cleanhtml.com/) for Word documents or [Docs to Markdown](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607?pann=cwsdp&hl=en-US) for Google documents to convert text into HTML
-
-    * If the file type *is* preceded by "resource" in the table, please upload your materials directly to your branch and make sure they are of the correct file type as listed in the table. Once you have uploaded the file, copy the web address for that file in Github and then update the resources.html file in that same lesson folder to link to that web address. This extra step allows the resources to be displayed directly on the webpage for each lesson.
-5. Commit your changes. 
-6. Click the Compare & pull request button.
-7. Click Create pull request to open a new pull request, and provide necessary details on what you’ve changed
-
-Please use the following tables to determine how to upload your file:
-
 **Unit Page**
 <table>
   <tr>
@@ -249,6 +237,16 @@ Please use the following tables to determine how to upload your file:
    </td>
   </tr>
 </table>
+
+* If you would like to update the description for a unit or lesson, simply edit the description line in the appropriate .json file
+
+* If the file type *is not* preceded by "resource" in the table, you will have to upload your materials by editing the existing version of the HTML file that is in your branch. Make sure that the file you are editing is in the correct folder and is named correctly according to the table.
+    * You may also make changes to the curriculum material using your own text editor instead of directly editing the HTML. You can use a tool such as [Word 2 Clean HTML](https://word2cleanhtml.com/) for Word documents or [Docs to Markdown](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607?pann=cwsdp&hl=en-US) for Google documents to convert text into HTML
+
+* If the file type *is* preceded by "resource" in the table, please upload your materials directly to your branch and make sure they are of the correct file type as listed in the table. Once you have uploaded the file, copy the web address for that file in Github and then update the resources.html file in that same lesson folder to link to that web address. This extra step allows the resources to be displayed directly on the webpage for each lesson.
+5. Commit your changes. 
+6. Click the Compare & pull request button.
+7. Click Create pull request to open a new pull request, and provide necessary details on what you’ve changed
 
 
 
