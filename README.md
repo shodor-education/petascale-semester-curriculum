@@ -254,31 +254,7 @@ Please use the following tables to determine how to upload your file:
 
 <!-- CURRICULUM DEVELOPERS -->
 ## Curriculum Developers
-* Beau Christ, Wofford College
-* Nitin Sukhija, Slippery Rock University
-* Juan Perilla, University of Delaware
-* Colleen Heinemann, University of Illinois
-* Kathy Traxler, Louisiana State University
-* Peter J. Hawrylak, The University of Tulsa
-* Carrie Brown, University of Nebraska
-* Linh Ngo, West Chester University
-* Mobeen Ludin, Yukon University
-* Asya Shklyar, Pomona College
-* Hyacinthe Aboudja, Oklahoma City University
-* Michael Groves, California State University Fullerton
-* David Bunde, Knox College
-* Paul Hemler, Hampden-Sydney College
-* Maria Pantoja, California Polytechnic State University
-* Widodo Samyono, Jarvis Christian College
-* David Joiner, Kean University
-* Justin Oelgoetz, Austin Peay State University
-* Cameron Foss, University of Massachusetts Amherst
-* Phil Bording, Alabama A&M University
-* Roman Voronov, New Jersey Institute of Technology
-* Mike Shah, Northeastern University
-* Sanish Rai, West Virginia University Institute of Technology
-* Marc Gagné, West Chester University
-
+Will be updated soon
 
 <!-- LICENSE -->
 ## License
