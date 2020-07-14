@@ -107,7 +107,7 @@ Contributions are what make the open source community such an amazing place to b
    </td>
    <td>Resource - PDF/DOCX
    </td>
-   <td>"petascale-unit-#-asseesment.pdf" or "petascale-unit-#-asseesment.docx"
+   <td>"petascale-unit-#-assessment.pdf" or "petascale-unit-#-assessment.docx"
    </td>
   </tr>
   <tr>
