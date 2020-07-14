@@ -107,7 +107,7 @@ Contributions are what make the open source community such an amazing place to b
    </td>
    <td>Resource - PDF/DOCX
    </td>
-   <td>"assessment.html"
+   <td>"petascale-unit-#-asseesment.pdf" or "petascale-unit-#-asseesment.docx"
    </td>
   </tr>
   <tr>
@@ -160,7 +160,7 @@ Contributions are what make the open source community such an amazing place to b
    </td>
    <td>Resource - PDF/DOCX
    </td>
-   <td>"assessment.html"
+   <td>"petascale-lesson-#.#-assessment.pdf" or "petascale-lesson-#.#-assessment.docx"
    </td>
   </tr>
   <tr>
@@ -169,7 +169,7 @@ Contributions are what make the open source community such an amazing place to b
    </td>
    <td>Resource - PDF/PPT
    </td>
-   <td>.ppt
+   <td>"petascale-lesson-#.#slides.pdf" or "petascale-lesson-#.#slides.ppt"
    </td>
   </tr>
   <tr>
@@ -185,7 +185,7 @@ Contributions are what make the open source community such an amazing place to b
    </td>
    <td>Resource - PDF/DOCX
    </td>
-   <td>.docx
+   <td>"petascale-lesson-#.#-instructorGuide.pdf" or "petascale-lesson-#.#-instructorGuide.docx"
    </td>
   </tr>
   <tr>
@@ -209,7 +209,7 @@ Contributions are what make the open source community such an amazing place to b
    </td>
    <td>Resource - PDF/DOCX
    </td>
-   <td>.docx
+   <td>"petascale-lesson-#.#-exercise.pdf" or "petascale-lesson-#.#-exercise.docx"
    </td>
   </tr>
   <tr>
@@ -225,7 +225,7 @@ Contributions are what make the open source community such an amazing place to b
    </td>
    <td>Resource - PDF/DOCX
    </td>
-   <td>.docx
+   <td>"petascale-lesson-#.#-references.pdf" or "petascale-lesson-#.#-references.docx"
    </td>
   </tr>
   <tr>
