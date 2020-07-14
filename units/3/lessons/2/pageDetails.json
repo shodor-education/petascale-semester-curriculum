@@ -1,4 +1,5 @@
 {
 	"title": "Unit 3 Lesson 2: Parallel Architecture 2",
-	"description": "<ul> <li>Evaluate a loop to see if it is a candidate for parallelization using a vector architecture.</li><li>Predict performance of a loop on a vector architecture.</li><li>Employ Foster’s methodology (see: Designing and Building Parallel Programs, by Ian Foster, available at: https://www.mcs.anl.gov/~itf/dbpp/ ) for designing parallel programs for a given architecture</li> </ul>"
+	"description": "<ul> <li>Evaluate a loop to see if it is a candidate for parallelization using a vector architecture.</li><li>Predict performance of a loop on a vector architecture.</li><li>Employ Foster’s methodology (see: Designing and Building Parallel Programs, by Ian Foster, available at: https://www.mcs.anl.gov/~itf/dbpp/ ) for designing parallel programs for a given architecture</li> </ul>",
+	"developer": "Peter J. Hawrylak"
 }
