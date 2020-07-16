@@ -1,0 +1,5 @@
+{
+	"title": "Unit 8 Lesson 4: N-Body Mechnics in OpenACC",
+	"description": "Optimizing an N-body code using OpenACC",
+	"developer": "Justin Oelgoetz"
+}
