@@ -1,0 +1,5 @@
+{
+	"title": "Unit 8 Lesson 2: Intro to OpenACC",
+	"description": "This lesson will focus on OpenAcc's compiler directives for accelerating scientific applications. The lesson will introduce two methods of parallelizing: one where the programer has the ability to control the data copy from host to GPU, and compute flow. 2nd where the compiler actually controls computations and data flow.",
+	"developer": "Mobeen Ludin"
+}
