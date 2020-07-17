@@ -246,7 +246,7 @@ Contributions are what make the open source community such an amazing place to b
 * If the file type *is* preceded by "resource" in the table, please name your materials using the naming scheme provided and then upload your materials to the resources folder in the appropriate unit or lesson. This extra step allows the resources to be displayed directly on the webpage for each unit and lesson.
 5. Commit your changes. 
 6. Click the Compare & pull request button.
-7. Click Create pull request to open a new pull request, and provide necessary details on what you’ve changed
+7. Click Create pull request to open a new pull request, and provide necessary details on what you’ve changed.
 
 
 
