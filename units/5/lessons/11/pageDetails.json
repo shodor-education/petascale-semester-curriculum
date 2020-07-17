@@ -1,4 +1,5 @@
 {
 	"title": "Unit 5 Lesson 11: Distributed Memory Concepts: Distributed Multiprocessing",
-	"description": "The lesson covers distributed memory concepts and how these concepts can be applied to MPI."
+	"description": "The lesson covers distributed memory concepts and how these concepts can be applied to MPI.",
+	"developer": "Widodo Samyono"
 }

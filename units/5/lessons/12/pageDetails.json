@@ -1,4 +1,5 @@
 {
 	"title": "Unit 5 Lesson 12: Using Advanced MPI",
-	"description": "This lesson goes beyond a hello world example and addresses the issues and communication congestion, and provides examples on reducing hits on the performance, modifying functions that will introduce the specific problem and how to solve the problem. The main goal of this lesson is to show how to increase speed and reduce the problems."
+	"description": "This lesson goes beyond a hello world example and addresses the issues and communication congestion, and provides examples on reducing hits on the performance, modifying functions that will introduce the specific problem and how to solve the problem. The main goal of this lesson is to show how to increase speed and reduce the problems.",
+	"developer": "Hyacinthe Aboudja"
 }

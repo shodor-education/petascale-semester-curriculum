@@ -1,4 +1,5 @@
 {
 	"title": "Unit 5 Lesson 6: Performance Evaluation of MPI Programs",
-	"description": "This lesson discusses ways you can make your MPI code more efficient and make necessary modifications to achieve speedup. The focus of the lesson is on using some MPI routines that capture compute time for your application. It also explores different communication modes that are present in MPI libraries that could be implemented to gain performance."
+	"description": "This lesson discusses ways you can make your MPI code more efficient and make necessary modifications to achieve speedup. The focus of the lesson is on using some MPI routines that capture compute time for your application. It also explores different communication modes that are present in MPI libraries that could be implemented to gain performance.",
+	"developer": "Mobeen Ludin"
 }

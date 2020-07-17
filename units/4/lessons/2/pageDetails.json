@@ -1,4 +1,5 @@
 {
     "title": "Unit 4 Lesson 2: Longest Common Subsequence",
-    "description": "Parallel version of a solution to the Longest Common Subsequence problem.  Bioinformatics science problem.  Demonstrates a data dependency issue that must be resolved before parallelization."
+    "description": "Parallel version of a solution to the Longest Common Subsequence problem.  Bioinformatics science problem.  Demonstrates a data dependency issue that must be resolved before parallelization.",
+    "developer": "Paul Hemler"
 }
