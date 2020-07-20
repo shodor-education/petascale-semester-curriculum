@@ -1,0 +1,5 @@
+{
+    "title": "Unit 4 Lesson 8: Markov chains, Matrix multiply",
+    "description": "This lesson uses a Markov Chain problem to motivate the need for efficient matrix multiply.",
+    "developer": "Paul Hemler"
+}
