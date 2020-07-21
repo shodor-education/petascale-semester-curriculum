@@ -1,0 +1,5 @@
+{
+	"title": "Unit 8 Lesson 5: Solving the Heat Equation, via Jacobi's Method",
+	"description": "Using OpenACC to Accelerate Jacobi's Method for solving sparse matricies",
+	"developer": "Justin Oelgoetz"
+}
