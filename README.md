@@ -32,11 +32,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<a href = "http://shodor.org">Shodor</a> is coordinating a curriculum development effort for which we are recruiting participants from institutions across the United States to fill a variety of roles (curriculum developers, testers, workshop instructors, and workshop participants). **The Blue Waters Parallel Computational STEM Curriculum Capstone** (or, simply, **"the Capstone"**) aims to prepare faculty and professional staff to teach applied parallel modeling and simulation by incorporating the materials and lessons learned from the successful <a href="http://shodor.org/petascale/materials/institute/">Blue Waters Intern Petascale Institute</a> that has been conducted multiple times over the last ten years.
+<a href = "http://shodor.org">Shodor</a> is coordinating a curriculum development effort for which we are recruiting participants from institutions across the United States to fill a variety of roles (curriculum developers, testers, workshop instructors, and workshop participants). **Blue Waters Petascale Semester Course Curriculum** (or, simply, **"the Petascale Curriculum"**) aims to prepare faculty and professional staff to teach applied parallel modeling and simulation by incorporating the materials and lessons learned from the successful <a href="http://shodor.org/petascale/materials/institute/">Blue Waters Intern Petascale Institute</a> that has been conducted multiple times over the last ten years.
 
 What has set the Petascale Institute apart from other efforts is that it starts with <a href="http://shodor.org/petascale/materials/modules"> working models solving problems in real science</a> that cover the continuum of multi-core/many-core technologies as exemplified by Blue Waters (OpenMP, MPI, OpenACC, CUDA, hybrid). Instead of teaching these from an abstract, theoretical point, we have exploited the basic motifs used in real scientific code to teach undergraduate and graduate students the basics of applied parallel modeling and simulation.
 
-The goal of the Capstone effort is to update the Petascale Institute materials to become more useful for preparing undergraduate and graduate students, as well as to help faculty and professional staff to integrate the materials into their own courses, student programs, REUs, workshops, and institutes.
+The goal of the Petascale Curriculum effort is to update the Petascale Institute materials to become more useful for preparing undergraduate and graduate students, as well as to help faculty and professional staff to integrate the materials into their own courses, student programs, REUs, workshops, and institutes.
 
 This project is a component of the Blue Waters education initiatives at the University of Illinois, funded by the National Science Foundation.
 
@@ -48,8 +48,8 @@ These resources can be helpful both for *instructors* looking to integrate parts
 
 For instructors:
 
-* These materials are meant to provide example lessons that you can incorporate into your own course. We designed each lesson to take ~25 minutes so you can easily fit two topics into a 50 minute or 75 minute lecture.
-* Additionally, Shodor plans to host a semesterly webinar for instructors looking to develop their parallel computing course. The webinars will be in August, September and December and more information on these webinars is TBD. If you are interested, please fill out the contact form at the bottom of any lesson page.
+* These materials are meant to provide example lessons that you can incorporate into your own course. We designed each lesson to take ~25 minutes of in class time so you can easily fit two topics into a 50 minute or 75 minute lecture.
+* Additionally, Shodor plans to host a semesterly webinar for instructors looking to develop their parallel computing course. The webinars will be in August, September and December and more information on these webinars is TBD. If you are interested, please fill out the contact form at the bottom of any lesson page on the website.
 
 For students:
 
@@ -107,7 +107,7 @@ Contributions are what make the open source community such an amazing place to b
    </td>
    <td>Resource - PDF/DOCX
    </td>
-   <td>"petascale-unit-#-assessment.pdf" or "petascale-unit-#-assessment.docx"
+   <td>"petascale-unit-#-assessment.pdf" and "petascale-unit-#-assessment.docx"
    </td>
   </tr>
   <tr>
@@ -160,16 +160,16 @@ Contributions are what make the open source community such an amazing place to b
    </td>
    <td>Resource - PDF/DOCX
    </td>
-   <td>"petascale-lesson-#.#-assessment.pdf" or "petascale-lesson-#.#-assessment.docx"
+   <td>"petascale-lesson-#.#-assessment.pdf" and "petascale-lesson-#.#-assessment.docx"
    </td>
   </tr>
   <tr>
   <tr>
    <td>Presentation Slides
    </td>
-   <td>Resource - PDF/PPT
+   <td>Resource - PDF/PPTX
    </td>
-   <td>"petascale-lesson-#.#slides.pdf" or "petascale-lesson-#.#slides.ppt"
+   <td>"petascale-lesson-#.#slides.pdf" and "petascale-lesson-#.#slides.pptx"
    </td>
   </tr>
   <tr>
@@ -185,15 +185,15 @@ Contributions are what make the open source community such an amazing place to b
    </td>
    <td>Resource - PDF/DOCX
    </td>
-   <td>"petascale-lesson-#.#-instructorGuide.pdf" or "petascale-lesson-#.#-instructorGuide.docx"
+   <td>"petascale-lesson-#.#-instructorGuide.pdf" and "petascale-lesson-#.#-instructorGuide.docx"
    </td>
   </tr>
   <tr>
    <td>Code Example
    </td>
-   <td>Resource - ZIP
+   <td>Resource - GNU zip
    </td>
-   <td>.zip
+   <td>"petascale-lesson-#.#-code.tar.gz"
    </td>
   </tr>
   <tr>
@@ -209,7 +209,7 @@ Contributions are what make the open source community such an amazing place to b
    </td>
    <td>Resource - PDF/DOCX
    </td>
-   <td>"petascale-lesson-#.#-exercise.pdf" or "petascale-lesson-#.#-exercise.docx"
+   <td>"petascale-lesson-#.#-exercise.pdf" and "petascale-lesson-#.#-exercise.docx"
    </td>
   </tr>
   <tr>
@@ -225,11 +225,11 @@ Contributions are what make the open source community such an amazing place to b
    </td>
    <td>Resource - PDF/DOCX
    </td>
-   <td>"petascale-lesson-#.#-references.pdf" or "petascale-lesson-#.#-references.docx"
+   <td>"petascale-lesson-#.#-references.pdf" and "petascale-lesson-#.#-references.docx"
    </td>
   </tr>
   <tr>
-   <td>Lesson Title/Description
+   <td>Lesson Title/Description/Author
    </td>
    <td>JSON
    </td>
@@ -240,24 +240,38 @@ Contributions are what make the open source community such an amazing place to b
 
 * If you would like to update the description for a unit or lesson, simply edit the description line in the appropriate .json file
 
-* If the file type *is not* preceded by "resource" in the table, you will have to upload your materials by editing the existing version of the HTML file that is in your branch. Make sure that the file you are editing is in the correct folder and is named correctly according to the table.
+* If the file type *is not* preceded by "resource" in the table, you will have to upload your materials by editing the existing version of the HTML file that is in your branch. Make sure that the file you are editing is in the correct folder and is named correctly according to the table
     * You may also make changes to the curriculum material using your own text editor instead of directly editing the HTML. You can use a tool such as [Word 2 Clean HTML](https://word2cleanhtml.com/) for Word documents or [Docs to Markdown](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607?pann=cwsdp&hl=en-US) for Google documents to convert text into HTML
 
-* If the file type *is* preceded by "resource" in the table, please name your materials using the naming scheme provided and then upload your materials to the resources folder in the appropriate unit or lesson. This extra step allows the resources to be displayed directly on the webpage for each unit and lesson.
-5. Commit your changes. 
-6. Click the Compare & pull request button.
-7. Click Create pull request to open a new pull request, and provide necessary details on what you’ve changed.
+* If the file type *is* preceded by "resource" in the table, please name your materials using the naming scheme provided and then upload your materials to the resources folder in the appropriate unit or lesson. This extra step allows the resources to be displayed directly on the webpage for each unit and lesson
+5. Commit your changes
+6. Click the Compare & pull request button
+7. Click Create pull request to open a new pull request, and provide necessary details on what you’ve changed
 
 
 
 <!-- CURRICULUM DEVELOPERS -->
 ## Curriculum Developers
-Will be updated soon
+* Colleen Heinemann, University of Illinois at Urbana-Champaign
+* David P. Bunde, Knox College
+* David A. Joiner, Kean University
+* Hyacinthe Aboudja, Oklahoma City University
+* Justin Oelgoetz, Austin Peay State University
+* Marc Gagné, West Chester University
+* Maria Pantoja, CalPoly San Luis Obispo
+* Michael N Groves, California State University Fullerton
+* Michael D. Shah, Northeastern University
+* Nitin Sukhija, Slippery Rock University of Pennsylvania
+* Paul F. Hemler, Hampden-Sydney College
+* Peter J. Hawrylak, The University of Tulsa
+* Roman Voronov, New Jersey Institute of Technology
+* Sanish Rai, West Virginia University Institute of Technology
+* Widodo Samyono, Jarvis Christian College
 
 <!-- LICENSE -->
 ## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+License pending
+<!-- Distributed under the MIT License. See `LICENSE` for more information. -->
 
 
 
