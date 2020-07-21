@@ -1,4 +1,5 @@
 {
 	"title": "Unit 11 Lesson 6: Adaptive Mesh Refinement",
-	"description": "Use AMR to simulate 3D MHD blast wave; visualize, analyze, and optimize process; modify init.c code to solve new problem."
+	"description": "Use AMR to simulate 3D MHD blast wave; visualize, analyze, and optimize process; modify init.c code to solve new problem.",
+    "developer": "Marc Gagn&eacute;"
 }

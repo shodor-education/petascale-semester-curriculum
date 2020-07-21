@@ -1,4 +1,5 @@
 {
 	"title": "Unit 11 Lesson 2: Scientific Visualization",
-	"description": "Introduction to computational astrophysical fluid dynamics; the PLUTO code; initializing, compiling and running code."
+	"description": "Introduction to computational astrophysical fluid dynamics; the PLUTO code; initializing, compiling and running code.",
+    "developer": "Marc Gagn&eacute;"
 }
