@@ -73,174 +73,35 @@ Contributions are what make the open source community such an amazing place to b
 4. Using the tables below, determine if your file is to be uploaded as a resource (indicated in the file type column)
 
 **Unit Page**
-<table>
-  <tr>
-   <td><strong>Material</strong>
-   </td>
-   <td><strong>File Type</strong>
-   </td>
-   <td><strong>File Name</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Unit Learning Objectives
-   </td>
-   <td>HTML
-   </td>
-   <td>"objectives.html"
-   </td>
-  </tr>
-  <tr>
-   <td>Unit Student Prerequisites
-   </td>
-   <td>HTML
-   </td>
-   <td>"studentPrereqs.html"
-   </td>
-  </tr>
-  <tr>
-   <td>Unit Instructor Prerequisites
-   </td>
-   <td>HTML
-   </td>
-   <td>"instructorPrereqs.html"
-   </td>
-  </tr>
-  <tr>
-   <td>Unit Sample Assessment
-   </td>
-   <td>Resource - PDF/DOCX
-   </td>
-   <td>"petascale-unit-#-assessment.pdf" and "petascale-unit-#-assessment.docx"
-   </td>
-  </tr>
-  <tr>
-   <td>Unit Title/Description
-   </td>
-   <td>JSON
-   </td>
-   <td>"pageDetails.json"
-   </td>
-  </tr>
-</table>
 
+Material                      | File Type           | File Name
+:---------------------------- | :------------------ | :-----------------------------------------------------------------------
+Unit Title / Description      | JSON                | "pageDetails.json"
+Unit Learning Objectives      | HTML                | "objectives.html"
+Unit Student Prerequisites    | HTML                | "studentPrereqs.html"
+Unit Instructor Prerequisites | HTML                | "instructorPrereqs.html"
+Unit Sample Assessment        | PDF / DOCX          | "petascale-unit-#-assessment.pdf" and "petascale-unit-#-assessment.docx"
+
+<br />
 
 **Lesson Page**
-<table>
-  <tr>
-   <td><strong>Material</strong>
-   </td>
-   <td><strong>File Type</strong>
-   </td>
-   <td><strong>File Name / Extension</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Lesson Learning Objectives
-   </td>
-   <td>HTML
-   </td>
-   <td>"objectives.html"
-   </td>
-  </tr>
-  <tr>
-   <td>Lesson Student Prerequisites
-   </td>
-   <td>HTML
-   </td>
-   <td>"studentPrereqs.html"
-   </td>
-  </tr>
-  <tr>
-   <td>Lesson Instructor Prerequisites
-   </td>
-   <td>HTML
-   </td>
-   <td>"instructorPrereqs.html"
-   </td>
-  </tr>
-  <tr>
-   <td>Lesson Sample Assessment
-   </td>
-   <td>Resource - PDF/DOCX
-   </td>
-   <td>"petascale-lesson-#.#-assessment.pdf" and "petascale-lesson-#.#-assessment.docx"
-   </td>
-  </tr>
-  <tr>
-  <tr>
-   <td>Presentation Slides
-   </td>
-   <td>Resource - PDF/PPTX
-   </td>
-   <td>"petascale-lesson-#.#slides.pdf" and "petascale-lesson-#.#slides.pptx"
-   </td>
-  </tr>
-  <tr>
-   <td>Presentation Video
-   </td>
-   <td>HTML (link to video)
-   </td>
-   <td>"presentationVideo.html"
-   </td>
-  </tr>
-  <tr>
-   <td>Instructor Guide
-   </td>
-   <td>Resource - PDF/DOCX
-   </td>
-   <td>"petascale-lesson-#.#-instructorGuide.pdf" and "petascale-lesson-#.#-instructorGuide.docx"
-   </td>
-  </tr>
-  <tr>
-   <td>Code Example
-   </td>
-   <td>Resource - GNU zip
-   </td>
-   <td>"petascale-lesson-#.#-code.tar.gz"
-   </td>
-  </tr>
-  <tr>
-   <td>Materials Needed and System Requirements
-   </td>
-   <td>HTML
-   </td>
-   <td>"systemReqs.html"
-   </td>
-  </tr>
-  <tr>
-   <td>Exercise Instructions for Students
-   </td>
-   <td>Resource - PDF/DOCX
-   </td>
-   <td>"petascale-lesson-#.#-exercise.pdf" and "petascale-lesson-#.#-exercise.docx"
-   </td>
-  </tr>
-  <tr>
-  <tr>
-   <td>Curriculum Standards Addressed
-   </td>
-   <td>HTML
-   </td>
-   <td>"currStandards.html"
-   </td>
-  </tr>
-   <td>References and Further Reading
-   </td>
-   <td>Resource - PDF/DOCX
-   </td>
-   <td>"petascale-lesson-#.#-references.pdf" and "petascale-lesson-#.#-references.docx"
-   </td>
-  </tr>
-  <tr>
-   <td>Lesson Title/Description/Author
-   </td>
-   <td>JSON
-   </td>
-   <td>"pageDetails.json"
-   </td>
-  </tr>
-</table>
+
+Material                                 | File Type           | File Name
+:--------------------------------------- | :------------------ | :-----------------------------------------------------------------------
+Lesson Title / Description / Developer   | JSON                | "pageDetails.json"
+Lesson Learning Objectives               | HTML                | "objectives.html"
+Lesson Student Prerequisites             | HTML                | "studentPrereqs.html"
+Lesson Instructor Prerequisites          | HTML                | "instructorPrereqs.html"
+Lesson Sample Assessment                 | PDF / DOCX          | "petascale-lesson-#.#-assessment.pdf" and "petascale-lesson-#.#-assessment.docx"
+Curriculum Standards Addressed           | HTML                | "currStandards.html"
+Materials Needed and System Requirements | HTML                | "systemReqs.html"
+Presentation Slides                      | PDF / PPTX          | "petascale-lesson-#.#slides.pdf" and "petascale-lesson-#.#slides.pptx"
+Presentation Video                       | JSON                | "presentationVideo.json"
+Instructor Guide                         | PDF / DOCX          | "petascale-lesson-#.#-instructorGuide.pdf" and "petascale-lesson-#.#-instructorGuide.docx"
+Code Example                             | GNU Zip             | "petascale-lesson-#.#-code.tar.gz"
+Exercise Instructions for Students       | PDF / DOCX          | "petascale-lesson-#.#-exercise.pdf" and "petascale-lesson-#.#-exercise.docx"
+References and Further Reading           | PDF / DOCX          | "petascale-lesson-#.#-references.pdf" and "petascale-lesson-#.#-references.docx"
+
 
 * If you would like to update the description for a unit or lesson, simply edit the description line in the appropriate .json file
 
