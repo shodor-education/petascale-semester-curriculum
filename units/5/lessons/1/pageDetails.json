@@ -1,5 +1,5 @@
 {
 	"title": "Unit 5 Lesson 1: Wave Propagation in MPI",
-	"description": "This lesson explores wave propogation code that solves a simple two dimensional PDE. Using the pebble in the pond example, it makes waves from the pebble's drop point and shows how waves reflect when they hit the boundary.",
+	"description": "This module focuses on using the Message Passing Interface (MPI) for accelerating a time dependent partial differential equation scientific application. The module introduces a multi-processor parallel computing paradigm using message passing. The acoustic wave equation is computed for a two-dimensional domain. The time dependent partial differential equation is solved, and a file written to generate a visual animation. The program results are presented in a grey scale ImageMagik movie loop.",
 	"developer": "Phil Bording"
 }  
