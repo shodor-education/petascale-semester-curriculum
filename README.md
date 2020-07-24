@@ -7,8 +7,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
+  <a href="https://github.com/shodor-education/petascale-semester-curriculum">
+    <img src="images/BWPEPbanner.png" alt="Banner" width="100%">
+  </a>
  
-<h3 align="center">Blue Waters Petascale Semester Curriculum</h3>
+  <h3 align="center">Blue Waters Petascale Semester Curriculum</h3>
+  
   <p align="center">
     The Blue Waters Petascale Semester Curriculum is a collection of 11 units and a total of 88 lessons that cover parallel computing and its applications. Units are groupings of lessons (about 6–12) with materials for each lesson designed to last 25 minutes of in-class time. The materials can be browsed and searched on <a href="http://shodor.org/petascale/materials/semesterCurriculum">Shodor's Petascale site.</a> 
     <br />
