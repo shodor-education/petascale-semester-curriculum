@@ -1,5 +1,5 @@
 {
-	"title": "Unit 5 Lesson 10: MPI Application of Semi-Classical Boltzmann Transport Equation of a Single-Walled Carbon Nanotube",
-	"description": "This lesson presents a complex topic (7-Dimensional Boltzmann transport equation) in a simple way that highlights the need and use of basic MPI in C++.",
-	"developer": "Cameron Foss"
+	"title": "Unit 5 Lesson 10: N-Body Mechanics in MPI",
+	"description": "This lesson explains n-body simulations as a distributed simulation. It uses real life example code, using gravity forces and is followed up by an activity to parallelize N-body simulations using Lennerd-Jones instead of gravity forces.",
+	"developer": "Justin Oelgoetz"
 }

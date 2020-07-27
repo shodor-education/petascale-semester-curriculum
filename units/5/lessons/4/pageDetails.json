@@ -1,6 +1,5 @@
 {
-	"title": "Unit 5 Lesson 4: Convolution/Stencil Code in MPI",
-	"description": "In this lesson the convolution/Stencil algorithm will be introduced. The implementation for the 5 stencil <u>serial</u> code applied to a simple heat transfer simulation will be presented and profiled. The lesson will explain at a high level how to solve and accelerate the code in MPI with a timing comparison of serial vs distributed graphs; the code can be run on a laptop, and shows how to run on a cluster assuming access to Blue Waters or a supercomputer. The lesson is followed by an activity about changing the code to 3D . The code will also be in OpenMP (different unit) so their execution time can be compared.",
-	"developer": "Maria Pantoja",
-	"institution": "CalPoly San Luis Obispo"
+	"title": "Unit 5 Lesson 4: Distributed Memory Concepts: Distributed Multiprocessing",
+	"description": "The lesson covers distributed memory concepts and how these concepts can be applied to MPI.",
+	"developer": "Widodo Samyono"
 }

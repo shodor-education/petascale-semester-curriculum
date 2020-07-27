@@ -1,6 +1,5 @@
 {
-	"title": "Unit 5 Lesson 11: Distributed Memory Concepts: Distributed Multiprocessing",
-	"description": "The lesson covers distributed memory concepts and how these concepts can be applied to MPI.",
-    "developer": "Widodo Samyono",
-    "institution": "Jarvis Christian College"
+	"title": "Unit 5 Lesson 11: Hello World",
+	"description": "This lesson allows students to go through their first MPI program.",
+	"developer": "Michael Groves"
 }

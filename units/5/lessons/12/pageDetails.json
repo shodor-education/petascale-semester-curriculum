@@ -1,6 +1,5 @@
 {
-	"title": "Unit 5 Lesson 12: Using Advanced MPI",
-	"description": "This lesson goes beyond a hello world example and addresses the issues and communication congestion, and provides examples on reducing hits on the performance, modifying functions that will introduce the specific problem and how to solve the problem. The main goal of this lesson is to show how to increase speed and reduce the problems.",
-	"developer": "Hyacinthe Aboudja",
-	"institution": "Oklahoma City University"
-}
+	"title": "Unit 5 Lesson 12: Wave Propagation in MPI",
+	"description": "This module focuses on using the Message Passing Interface (MPI) for accelerating a time dependent partial differential equation scientific application. The module introduces a multi-processor parallel computing paradigm using message passing. The acoustic wave equation is computed for a two-dimensional domain. The time dependent partial differential equation is solved, and a file written to generate a visual animation. The program results are presented in a grey scale ImageMagik movie loop.",
+	"developer": "Phil Bording"
+}  
