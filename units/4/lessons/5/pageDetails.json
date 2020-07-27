@@ -1,5 +1,6 @@
 {
     "title": "Unit 4 Lesson 5: Convolution in OpenMP (Heat Transfer example)",
     "description": "Explain how to accelerate the convolution pattern in OpenMP. Use a simple heat Transfer simulation to show how the code works and the new execution times.",
-    "developer": "Maria Pantoja"
+    "developer": "Maria Pantoja",
+	"institution": "CalPoly San Luis Obispo"
 }

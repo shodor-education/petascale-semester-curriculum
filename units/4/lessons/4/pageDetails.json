@@ -1,5 +1,6 @@
 {
     "title": "Unit 4 Lesson 4: OpenMP Target Offload",
     "description": "Explain how to use the new OpenMP pragma target to offload code to a device accelerator, for example from CPU to a GPU. Will use the convolution code as an example.",
-    "developer": "Maria Pantoja"
+    "developer": "Maria Pantoja",
+	"institution": "CalPoly San Luis Obispo"
 }
