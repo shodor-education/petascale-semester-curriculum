@@ -1,6 +1,6 @@
 {
     "title": "Unit 4 Lesson 9: Sieve of Aristhosthenes",
     "description": "Speedup of SoA algorithm using OpenMP, discussion of challenges, issues with false sharing",
-    "developer": "David A. Joiner",
-    "institution": "Kean University"
+	"developer": "David A. Joiner",
+	"institution": "Kean University"
 }
