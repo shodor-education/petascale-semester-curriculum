@@ -1,5 +1,6 @@
 {
     "title": "Unit 4 Lesson 3: Introduction to OpenMP",
     "description": "OpenMP concepts, language definitions and directives",
-    "developer": "Nitin Sukhija"
+	"developer": "Nitin Sukhija",
+	"institution": "Slippery Rock University of Pennsylvania"
 }
