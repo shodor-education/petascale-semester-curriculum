@@ -1,5 +1,6 @@
 {
     "title": "Unit 4 Lesson 1: Race Conditions",
     "description": "Uses creation of image of Mandelbrot set to illustrate race conditions.",
-    "developer": "David Bunde"
+	"developer": "David P. Bunde",
+	"institution": "Knox College"
 }

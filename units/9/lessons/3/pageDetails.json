@@ -1,5 +1,6 @@
 {
 	"title": "Unit 9 Lesson 3: Cache Memory Efficiency",
 	"description": "This lesson shows when the cache is used and when it is not used for different sized elements. Skipping sequential elements in a linear array has a performance cost.",
-	"developer": "Paul Hemler"
+	"developer": "Paul F. Hemler",
+	"institution": "Hampden-Sydney College"
 }

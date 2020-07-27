@@ -1,5 +1,6 @@
 {
 	"title": "Unit 9 Lesson 1: Cache Efficient Matrix Multiplication",
 	"description": "This lesson shows the performance of standard matrix multiplication, matrix multiplication with the transpose of one of the matrices, make its elements accessed by rows, and block or tile matrix multiply. Tile multiplication is shown to be the most efficient and the optimal tile size is emperically determined.",
-	"developer": "Paul Hemler"
+	"developer": "Paul F. Hemler",
+	"institution": "Hampden-Sydney College"
 }

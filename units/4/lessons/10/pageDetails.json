@@ -1,5 +1,6 @@
 {
     "title": "Unit 4 Lesson 10: Ensemble Based Simulated Annealing in OpenMP",
     "description": "Simulated Annealing as an example for use of OpenMP, discussion of requirements in changing algorithm due to loop carried dependency",
-    "developer": "David Joiner"
+	"developer": "David A. Joiner",
+	"institution": "Kean University"
 }
