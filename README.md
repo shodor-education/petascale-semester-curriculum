@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/shodor-education/petascale-semester-curriculum">
+  <a href="http://shodor.org/petascale">
     <img src="images/BWPEPbanner.png" alt="Banner" width="100%">
   </a>
  
