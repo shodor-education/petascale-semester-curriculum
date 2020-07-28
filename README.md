@@ -48,7 +48,7 @@ This project is a component of the <a href="https://bluewaters.ncsa.illinois.edu
 <!-- HOW TO USE -->
 ## Using the Materials
 
-These resources can be helpful both for *instructors* looking to integrate parts of parallel computing material into their course or in developing their own parallel computing course and for *students* looking to learn more about parallel computing in general. The curriculum materials can be accesed on [Shodor's Petascale site](http://shodor.org/petascale/materials/semesterCurriculum/units/).
+These resources can be helpful both for *instructors* looking to integrate parallel computing materials into their courses and for *students* looking to learn more about parallel computing. The curriculum materials can be accesed on [Shodor's Petascale site](http://shodor.org/petascale/materials/semesterCurriculum/units/).
 
 For instructors:
 
