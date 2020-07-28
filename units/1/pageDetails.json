@@ -1,4 +1,4 @@
 {
 	"title": "Unit 1: Computation Across the Curriculum",
-	"description": "In examining the need for High-Performance Computing (HPC), this unit focuses on running small, single-core examples of scientific applications with visualizations that will be run on more cores in later units."
+	"description": "Motivate the need for HPC; run small, single-core examples of scientific applications w/ visualizations that will be run on more cores later"
 }

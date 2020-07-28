@@ -1,4 +1,4 @@
 {
 	"title": "Unit 7: CUDA",
-	"description": ""
+	"description": "Overview of use of CUDA language standards to parallelize code using Nvidia GPUs."
 }

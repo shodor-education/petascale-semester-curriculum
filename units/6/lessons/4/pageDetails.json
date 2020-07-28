@@ -1,0 +1,5 @@
+{
+	"title": "Unit 6 Lesson 4: Application: pebble in pond wave equation",
+	"description": "This module will focus on adding OpenMP to working Message Passing Interface (MPI) codes to accelerate a time dependent partial differential equation (PDE) scientific application. The module introduces an existing multi-processor parallel computing paradigm using message passing. Our goal is to reduce runtime for the PDE solver using OpenMP. The acoustic wave equation is computed for a two-dimensional domain. The time dependent partial differential equation is solved, and a file written to generate a visual animation. The program results are presented in a grey scale ImageMagik movie loop.",
+	"developer": "Phil Bording",
+}
