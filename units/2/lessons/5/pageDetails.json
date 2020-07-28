@@ -1,5 +1,5 @@
 {
-    "title": "Unit 2 Lesson 4: Shared Memory and Distributed Memory & Interconnection Networks",
+    "title": "Unit 2 Lesson 5: Shared Memory and Distributed Memory & Interconnection Networks",
     "description": "Describe the difference between a shared memory system and a distributed memory system. Categorize common parallel programming tools, including OpenMP, MPI, and PThreads, as either shared memory or distributed memory approaches. Describe the key performance metrics related to memory access to compare a shared memory system with a distributed memory system. Define key concepts in distributed memory systems, including bisection bandwidth, and redundancy. Estimate the number of links needed in a distributed memory system with a given architecture. Estimate the number of \"hops\" a message needs in a distributed memory system with a given architecture.",
 	"developer": "Peter J. Hawrylak",
 	"institution": "The University of Tulsa"
