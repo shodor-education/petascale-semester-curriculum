@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="http://shodor.org/petascale">
-    <img src="images/BWPEPbanner.png" alt="Banner" width="100%">
+    <img src="images/BWPEPbanner.png" alt="Banner" width="801">
   </a>
  
   <h3 align="center">Blue Waters Petascale Semester Curriculum</h3>
