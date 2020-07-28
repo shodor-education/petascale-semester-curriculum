@@ -7,14 +7,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="http://shodor.org/petascale">
+  <a href="http://shodor.org/petascale" target="_blank">
     <img src="images/BWPEPbanner.png" alt="Banner" width="801">
   </a>
  
   <h3 align="center">Blue Waters Petascale Semester Curriculum</h3>
   
   <p align="center">
-    The Blue Waters Petascale Semester Curriculum is a collection of 11 units and a total of 88 lessons that cover parallel computing and its applications. Units are groupings of lessons (about 6–12) with materials for each lesson designed to last 25 minutes of in-class time. The materials can be browsed and searched on <a href="http://shodor.org/petascale/materials/semesterCurriculum">Shodor's Petascale site.</a> 
+    The Blue Waters Petascale Semester Curriculum is a collection of instructional materials for teaching parallel computing as applied to modeling and simulation. There are a total of 11 units with 6–12 lessons in each unit. Each lesson is designed to last 25 minutes of in-class time. The materials can be browsed and searched on <a href="http://shodor.org/petascale/materials/semesterCurriculum" target="_blank">Shodor's Petascale site.</a> 
     <br />
   </p>
 </p>
@@ -36,13 +36,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<a href = "http://shodor.org">Shodor</a> is coordinating a curriculum development effort for which we are recruiting participants from institutions across the United States to fill a variety of roles (curriculum developers, testers, workshop instructors, and workshop participants). **Blue Waters Petascale Semester Curriculum** (or, simply, **"the Petascale Curriculum"**) aims to prepare faculty and professional staff to teach applied parallel modeling and simulation by incorporating the materials and lessons learned from the successful <a href="http://shodor.org/petascale/materials/institute/">Blue Waters Intern Petascale Institute</a> that has been conducted multiple times over the last ten years.
+<a href="http://shodor.org" target="_blank">Shodor</a> has coordinated an effort to prepare faculty and professional staff to teach applied parallel modeling and simulation by incorporating the materials and lessons learned from the successful <a href="http://shodor.org/petascale/materials/institute/">Blue Waters Intern Petascale Institute</a> that has been conducted multiple times over the last ten years.
 
-What has set the Petascale Institute apart from other efforts is that it starts with <a href="http://shodor.org/petascale/materials/modules"> working models solving problems in real science</a> that cover the continuum of multi-core/many-core technologies as exemplified by Blue Waters (OpenMP, MPI, OpenACC, CUDA, hybrid). Instead of teaching these from an abstract, theoretical point, we have exploited the basic motifs used in real scientific code to teach undergraduate and graduate students the basics of applied parallel modeling and simulation.
+What has set the Petascale Institute apart from other efforts is that it starts with <a href="http://shodor.org/petascale/materials/modules" target="_blank"> working models solving problems in real science</a> that cover the continuum of multi-core/many-core technologies as exemplified by the Blue Waters project (such as OpenMP, MPI, OpenACC, CUDA, and hybrid). Instead of teaching these from an abstract, theoretical point, we have exploited the basic motifs used in real scientific code to teach undergraduate and graduate students the basics of applied parallel modeling and simulation.
 
-The goal of the Petascale Curriculum effort is to update the Petascale Institute materials to become more useful for preparing undergraduate and graduate students, as well as to help faculty and professional staff to integrate the materials into their own courses, student programs, REUs, workshops, and institutes.
+The goal of the Petascale Semester Curriculum effort was to update the Petascale Institute materials to become more useful for preparing undergraduate and graduate students, as well as to help faculty and professional staff to integrate the materials into their own courses, student programs, REUs, workshops, and institutes.
 
-This project is a component of the Blue Waters education initiatives at the University of Illinois, funded by the National Science Foundation.
+This project is a component of the <a href="https://bluewaters.ncsa.illinois.edu/" target="_blank">Blue Waters</a> education initiatives at the <a href="https://illinois.edu/" target="_blank">University of Illinois</a>, funded by the <a href="https://www.nsf.gov/" target="_blank">National Science Foundation</a>.
 
 
 <!-- HOW TO USE -->
