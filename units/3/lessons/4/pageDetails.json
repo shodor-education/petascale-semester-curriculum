@@ -1,5 +1,5 @@
 {
-	"title": "Unit 3 Lesson 4: Using a Linux Command Line 1",
-	"description": "<ul> <li>Understand the general idea behind the Linux terminal/shell </li><li>Understand the concept of directories/file structures</li><li>Able to navigate inside the Linux file system using cd</li><li>Able to create/delete directories</li><li>Able to create/edit/delete files.</li> </ul>",
-	"developer": ""
+	"title": "Unit 3 Lesson 8: Running Code on a Cluster 1",
+    "description": "The present module will focus on setting up jobs using TORQUE as the Scheduler and ALPS as the launching manager.",
+    "developer": ""
 }
