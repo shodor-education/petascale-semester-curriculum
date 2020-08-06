@@ -1,6 +1,6 @@
 {
 	"title": "Unit 7 Lesson 11: Numba for CUDA GPUs",
-	"description": "Using Numba in python for CUDA",
+	"description": "Using Numba in Python for CUDA",
 	"developer": "Sanish Rai",
 	"institution": "West Virginia University Institute of Technology"
 }
