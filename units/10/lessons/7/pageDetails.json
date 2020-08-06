@@ -1,5 +1,5 @@
 {
-	"title": "Unit 10 Lesson 7: Visualization 1",
-    "description": "This module will focus on transforming an floating point number image cube into a movie loop animation. Images are generated using a two-dimensional time dependent partial differential equation scientific application solving for acoustic waves.  The time dependent partial differential equation is solved and in the process a file written to generate a visual animation. The program results are presented in a grey scale ImageMagik movie loop.  A conversion program converts the movie frame of floating-point numbers into a grey scale .png file.",
+	"title": "Unit 10 Lesson 10: Version Control 2",
+    "description": "Advanced topics in repository maintenance.",
     "developer": ""
 }
