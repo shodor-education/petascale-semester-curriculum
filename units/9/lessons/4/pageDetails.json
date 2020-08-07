@@ -1,6 +1,6 @@
 {
-	"title": "Unit 9 Lesson 4: Disk and network",
-	"description": "Showing that disk and network are further from the processor than the RAM",
+	"title": "Unit 9 Lesson 5: Multiprocessor caching and false sharing",
+	"description": "Cache coherence, then the phenomenon and solution to false sharing",
 	"developer": "David P. Bunde",
 	"institution": "Knox College"
 }
