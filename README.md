@@ -117,6 +117,7 @@ References and Further Reading           | PDF / DOCX          | "petascale-less
 
 <!-- CURRICULUM DEVELOPERS -->
 ## Curriculum Developers
+* Beau Christ, Wofford College
 * Colleen Heinemann, University of Illinois at Urbana-Champaign
 * David P. Bunde, Knox College
 * David A. Joiner, Kean University
