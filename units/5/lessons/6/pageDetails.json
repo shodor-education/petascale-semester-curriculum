@@ -1,6 +1,6 @@
 {
-	"title": "Unit 5 Lesson 6: Using Advanced MPI",
-	"description": "This lesson goes beyond a hello world example and addresses the issues and communication congestion, and provides examples on reducing hits on the performance, modifying functions that will introduce the specific problem and how to solve the problem. The main goal of this lesson is to show how to increase speed and reduce the problems.",
+	"title": "Unit 5 Lesson 9: MPI Applications",
+	"description": "This lesson explores MPI applications in science (e.g. engineering and biology) and dives into MPI examples such as Smith-Waterman simulations, pandemic simulations, and other widely used examples.",
 	"developer": "Hyacinthe Aboudja",
 	"institution": "Oklahoma City University"
 }
