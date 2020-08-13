@@ -1,6 +1,6 @@
 {
-	"title": "Unit 7 Lesson 2: Image Processing (creating filters, edge detection)",
-	"description": "",
-	"developer": "Michael D. Shah",
-	"institution": " Northeastern University"
+	"title": "Unit 7 Lesson 2: CUDA atomic functions",
+	"description": "Atomic functions in CUDA",
+	"developer": "Sanish Rai",
+	"institution": "West Virginia University Institute of Technology"
 }

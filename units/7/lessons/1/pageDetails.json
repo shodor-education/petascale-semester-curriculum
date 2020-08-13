@@ -1,6 +1,6 @@
 {
-	"title": "Unit 7 Lesson 1: Intro to CUDA GPGPU (what is it, what the model is, etc.)",
-	"description": "",
-	"developer": "Michael D. Shah",
-	"institution": " Northeastern University"
+	"title": "Unit 7 Lesson 1: Adding 2 vectors in CUDA",
+	"description": "Simple example for CUDA using vector addition",
+	"developer": "Sanish Rai",
+	"institution": "West Virginia University Institute of Technology"
 }

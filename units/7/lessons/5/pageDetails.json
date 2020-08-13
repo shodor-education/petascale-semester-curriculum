@@ -1,6 +1,6 @@
 {
-	"title": "Unit 7 Lesson 5: Adding 2 vectors in CUDA",
-	"description": "Simple example for CUDA using vector addition",
-	"developer": "Sanish Rai",
-	"institution": "West Virginia University Institute of Technology"
+	"title": "Unit 7 Lesson 5: Heat Diffusion in 1-2 D",
+	"description": "Demonstrations of parallelization of the diffusion equation in 1 and 2 D",
+	"developer": "David A. Joiner",
+	"institution": "Kean University"
 }

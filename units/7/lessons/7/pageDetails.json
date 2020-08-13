@@ -1,6 +1,6 @@
 {
-	"title": "Unit 7 Lesson 7: Parallel reduce in CUDA",
-	"description": "Atomic functions in CUDA",
-	"developer": "Sanish Rai",
-	"institution": "West Virginia University Institute of Technology"
+	"title": "Unit 7 Lesson 7: Branching and GPGPU Efficiency (profiling and debugging)",
+	"description": "Demonstrating how the use of conditions inside of a kernel impacts performance",
+	"developer": "David A. Joiner",
+	"institution": "Kean University"
 }
