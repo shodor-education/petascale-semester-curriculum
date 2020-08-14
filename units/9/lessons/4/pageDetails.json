@@ -1,5 +1,5 @@
 {
-	"title": "Unit 9 Lesson 5: Multiprocessor caching and false sharing",
+	"title": "Unit 9 Lesson 4: Multiprocessor caching and false sharing",
 	"description": "Cache coherence, then the phenomenon and solution to false sharing",
 	"developer": "David P. Bunde",
 	"institution": "Knox College"
