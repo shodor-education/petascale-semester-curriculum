@@ -1,5 +1,5 @@
 {
-	"title": "Unit 3 Lesson 4: Running Code on a Cluster 1",
-    "description": "The present module will focus on setting up jobs using TORQUE as the Scheduler and ALPS as the launching manager.",
-    "developer": ""
+  "title": "Unit 3 Lesson 4: Running Code on a Cluster 1",
+  "description": "This lesson focuses on setting up jobs using TORQUE as the Scheduler and ALPS as the launching manager.",
+  "developer": "Juan R. Perilla"
 }
