@@ -10,11 +10,11 @@
   <a href="http://shodor.org/petascale">
     <img src="images/BWPEPbanner.png" alt="Banner" width="801">
   </a>
- 
+
   <h3 align="center">Blue Waters Petascale Semester Curriculum</h3>
-  
+
   <p align="center">
-    The Blue Waters Petascale Semester Curriculum is a collection of instructional materials for teaching parallel computing as applied to modeling and simulation. There are a total of 11 units with 6–12 lessons in each unit. Each lesson is designed to last 25 minutes of in-class time. The materials can be browsed and searched on <a href="http://shodor.org/petascale/materials/semesterCurriculum">Shodor's Petascale site.</a> 
+    The Blue Waters Petascale Semester Curriculum is a collection of instructional materials for teaching parallel computing as applied to modeling and simulation. There are a total of 11 units with 6–12 lessons in each unit. Each lesson is designed to last 25 minutes of in-class time. The materials can be browsed and searched on <a href="http://shodor.org/petascale/materials/semester-curriculum">Shodor's Petascale site.</a>
     <br />
   </p>
 </p>
@@ -48,7 +48,7 @@ This project is a component of the <a href="https://bluewaters.ncsa.illinois.edu
 <!-- HOW TO USE -->
 ## Using the Materials
 
-These resources can be helpful both for *instructors* looking to integrate parallel computing materials into their courses and for *students* looking to learn more about parallel computing. The curriculum materials can be accesed on [Shodor's Petascale site](http://shodor.org/petascale/materials/semesterCurriculum/units/).
+These resources can be helpful both for *instructors* looking to integrate parallel computing materials into their courses and for *students* looking to learn more about parallel computing. The curriculum materials can be accesed on [Shodor's Petascale site](http://shodor.org/petascale/materials/semester-curriculum/units/).
 
 For instructors:
 
