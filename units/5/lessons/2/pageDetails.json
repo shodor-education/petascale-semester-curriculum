@@ -1,5 +1,6 @@
 {
-  "title": "Unit 5 Lesson 2: Collective vs. Point-to-Point Communication",
-  "description": "This lesson focuses on the advantage of using different collective communication concepts in MPI. Students will learn about binary tree and butterfly structures for communication and distribution of work. Students will also have the opportunity to examine characteristics of different collective communication routines provided by MPI library such as: barrier synchronization, broadcast, scatter, gather, global sum, global max/min, etc.",
-  "developer": "Mobeen Ludin"
+	"title": "Unit 5 Lesson 2: Introduction to MPI",
+	"description": "This lesson defines concepts, language definitions, theoretical concepts, and communication basic operations that are essential in understanding MPI.",
+	"developer": "Nitin Sukhija",
+	"institution": "Slippery Rock University of Pennsylvania"
 }

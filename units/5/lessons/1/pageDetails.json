@@ -1,6 +1,6 @@
 {
-	"title": "Unit 5 Lesson 1: Introduction to MPI",
-	"description": "This lesson defines concepts, language definitions, theoretical concepts, and communication basic operations that are essential in understanding MPI.",
-	"developer": "Nitin Sukhija",
-	"institution": "Slippery Rock University of Pennsylvania"
+	"title": "Unit 5 Lesson 1: When Should You Use MPI?",
+	"description": "Overview of when using distributed memory is useful and what types of applications it can be used for.",
+	"developer": "Colleen Heinemann",
+	"institution": "University of Illinois at Urbana-Champaign"
 }

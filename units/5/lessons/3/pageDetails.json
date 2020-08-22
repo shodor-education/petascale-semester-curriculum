@@ -1,6 +1,5 @@
 {
-	"title": "Unit 5 Lesson 3: Distributed Memory Concepts: Distributed Multiprocessing",
-	"description": "The lesson covers distributed memory concepts and how these concepts can be applied to MPI.",
-	"developer": "Widodo Samyono",
-	"institution": "Jarvis Christian College"
+  "title": "Unit 5 Lesson 3: Collective vs. Point-to-Point Communication",
+  "description": "This lesson focuses on the advantage of using different collective communication concepts in MPI. Students will learn about binary tree and butterfly structures for communication and distribution of work. Students will also have the opportunity to examine characteristics of different collective communication routines provided by MPI library such as: barrier synchronization, broadcast, scatter, gather, global sum, global max/min, etc.",
+  "developer": "Mobeen Ludin"
 }

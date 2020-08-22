@@ -1,5 +1,6 @@
 {
-	"title": "Unit 5 Lesson 9: Wave Propagation in MPI",
-	"description": "This module focuses on using the Message Passing Interface (MPI) for accelerating a time dependent partial differential equation scientific application. The module introduces a multi-processor parallel computing paradigm using message passing. The acoustic wave equation is computed for a two-dimensional domain. The time dependent partial differential equation is solved, and a file written to generate a visual animation. The program results are presented in a grey scale ImageMagik movie loop.",
-	"developer": ""
-}  
+	"title": "Unit 5 Lesson 9: N-Body Mechanics in MPI",
+	"description": "This lesson explains n-body simulations as a distributed simulation. It uses real life example code, using gravity forces and is followed up by an activity to parallelize N-body simulations using Lennerd-Jones instead of gravity forces.",
+	"developer": "Justin Oelgoetz",
+	"institution": "Austin Peay State University"
+}
