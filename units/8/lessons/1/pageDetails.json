@@ -1,5 +1,5 @@
 {
-  "title": "Unit 8 Lesson 1: Intro to OpenACC",
-  "description": "This lesson focuses on OpenAcc's compiler directives for accelerating scientific applications. The lesson introduces two methods of parallelizing: one where the programmer has the ability to control the data copy from host to GPU and compute flow, and the second where the compiler actually controls computations and data flow.",
-  "developer": "Mobeen Ludin"
+  "title": "Unit 8 Lesson 1: Accelarating Scientific Applications",
+  "description": "This lesson focuses on OpenACC's compiler directives for accelerating a time dependent partial differential equation scientific application. The lesson introduces two methods of parallelizing: First: where the programmer has the ability to control the data copy from host to/from the Graphics Processing Unit and understand compute flow improvements. Second: where the compiler actually controls speedup for computations and plans the required data flow. The program results are presented in a grey scale ImageMagik movie loop.",
+  "developer": "R. Phillip Bording"
 }

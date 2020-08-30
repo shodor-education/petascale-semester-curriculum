@@ -1,5 +1,5 @@
 {
-  "title": "Unit 7 Lesson 8: Cuda Memory Model",
-  "description": "Describes different levels of NVIDIA GPU memory hierarchy.",
+  "title": "Unit 7 Lesson 8: CUDA Memory Model",
+  "description": "This lesson describes different levels of NVIDIA GPU memory hierarchy.",
   "developer": "Maria Pantoja"
 }
