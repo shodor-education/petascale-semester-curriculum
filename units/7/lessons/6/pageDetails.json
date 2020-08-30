@@ -1,6 +1,5 @@
 {
-	"title": "Unit 7 Lesson 6: Numba for CUDA GPUs",
-	"description": "Using Numba in Python for CUDA",
-	"developer": "Sanish Rai",
-	"institution": "West Virginia University Institute of Technology"
+  "title": "Unit 7 Lesson 6: CUDA Atomic Functions",
+  "description": "Atomic functions in CUDA",
+  "developer": "Sanish Rai"
 }

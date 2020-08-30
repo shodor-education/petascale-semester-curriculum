@@ -1,6 +1,5 @@
 {
-	"title": "Unit 7 Lesson 7: Branching and GPGPU Efficiency (profiling and debugging)",
-	"description": "Demonstrating how the use of conditions inside of a kernel impacts performance",
-	"developer": "David A. Joiner",
-	"institution": "Kean University"
+  "title": "Unit 7 Lesson 7: Parallel Reduce in CUDA",
+  "description": "Performing parallel reduction in CUDA",
+  "developer": "Sanish Rai"
 }

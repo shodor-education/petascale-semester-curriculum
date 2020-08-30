@@ -1,6 +1,0 @@
-{
-	"title": "Unit 7 Lesson 4: Volume Rendering (e.g. with medical vis)",
-	"description": "Students will learn about volume rendering and that CUDA can be a useful tool for implementing volume rendering.",
-	"developer": "Michael D. Shah",
-	"institution": " Northeastern University"
-}

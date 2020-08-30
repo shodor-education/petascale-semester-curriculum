@@ -1,0 +1,5 @@
+{
+  "title": "Unit 7 Lesson 11: Branching and GPGPU Efficiency (profiling and debugging)",
+  "description": "Demonstrating how the use of conditions inside of a kernel impacts performance",
+  "developer": "David A. Joiner"
+}
