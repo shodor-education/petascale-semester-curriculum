@@ -1,6 +1,5 @@
 {
-	"title": "Unit 8 Lesson 2: N-Body Mechnics in OpenACC",
-	"description": "Optimizing an N-body code using OpenACC",
-	"developer": "Justin Oelgoetz",
-	"institution": "Austin Peay State University"
+  "title": "Unit 8 Lesson 3: N-Body Mechanics in OpenACC",
+  "description": "This lesson covers optimizing an N-body code using OpenACC.",
+  "developer": "Justin Oelgoetz"
 }
