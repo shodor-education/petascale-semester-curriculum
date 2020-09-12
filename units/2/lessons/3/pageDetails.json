@@ -1,6 +1,5 @@
 {
-    "title": "Unit 2 Lesson 3: Scalability Metrics",
-    "description": "Describe the sources of parallel overhead, performance metrics and scalability of the parallel system.",
-	"developer": "Nitin Sukhija",
-	"institution": "Slippery Rock University of Pennsylvania"
+  "title": "Unit 2 Lesson 3: Scalability Metrics",
+  "description": "This lesson describes the sources of parallel overhead, performance metrics, and scalability of the parallel system.",
+  "developer": "Nitin Sukhija"
 }

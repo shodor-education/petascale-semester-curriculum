@@ -1,6 +1,5 @@
 {
   "title": "Unit 4 Lesson 9: Sieve of Eratosthenes",
-  "description": "Speedup of SoE algorithm using OpenMP, discussion of challenges, issues with false sharing",
-	"developer": "David A. Joiner",
-	"institution": "Kean University"
+  "description": "This lesson covers speedup of the Sieve of Eratosthenes algorithm using OpenMP, a discussion of challenges, and issues with false sharing.",
+  "developer": "David A. Joiner"
 }

@@ -1,6 +1,5 @@
 {
-	"title": "Unit 3 Lesson 8: Scaling on a Cluster 3",
-	"description": "Understanding the output of SLURM jobs and how the number of resources affects completion time",
-	"developer": "Michael N. Groves",
-	"institution": "California State University Fullerton"
+  "title": "Unit 3 Lesson 8: Scaling on a Cluster 3",
+  "description": "This lesson covers understanding the output of SLURM jobs and how the number of resources affects completion time.",
+  "developer": "Michael N. Groves"
 }

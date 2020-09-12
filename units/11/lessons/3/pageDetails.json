@@ -1,6 +1,5 @@
 {
-	"title": "Unit 11 Lesson 3: Fluid Hydrodynamics",
-	"description": "Introduction to scientific visualization software, with an emphasis on VisIt (Lawrence Livermore National Labs).",
-    "developer": "Marc Gagn&eacute;",
-	"institution": "West Chester University"
+  "title": "Unit 11 Lesson 3: Fluid Hydrodynamics",
+  "description": "This lesson is an introduction to computational astrophysical fluid dynamics; the PLUTO code; initializing, compiling, and running code.",
+  "developer": "Marc Gagn&eacute;",
 }

@@ -1,6 +1,5 @@
 {
-	"title": "Unit 10 Lesson 2: Python Scripting 2",
-    "description": "Using MatPlotLib to visualize data",
-	"developer": "Michael N. Groves",
-	"institution": "California State University Fullerton"
+  "title": "Unit 10 Lesson 2: Python Scripting 2",
+  "description": "This lesson covers using Matplotlib to visualize data.",
+  "developer": "Michael N. Groves"
 }

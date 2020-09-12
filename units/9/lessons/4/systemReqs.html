@@ -1,6 +1,18 @@
 <p>
-To use this lesson, you’ll need a system that can compile C programs using OpenMP and run the code.  The program must be run in parallel in order to observe false sharing.  The timing results reported in this module are from a 2.1GHz AMD Opteron with 16 cores running and code compiled using gcc 9.2.1 on Fedora Linux version 31.  I also verified that the affect appears on the login node of Blue Waters.
+  To use this lesson, you will need a system that can compile C programs using
+  OpenMP and run the code. The program must be run in parallel in order to
+  observe false sharing. The timing results reported in this module are from a
+  2.1GHz AMD Opteron with 16 cores running and code compiled using gcc 9.2.1 on
+  Fedora Linux version 31. I also verified that the affect appears on the login
+  node of Blue Waters.
 </p>
 <p>
-	You’ll also need an appropriate .ppm file to use as input.  Square images with side length 800 pixels (800x800.ppm) and 1600 pixels (1600x1600.ppm) are provided.  Other files can be made using the <code>mandelbrot.c</code> code provided with the “Race conditions” lesson in unit 4.  Changing the values of <code>numRows</code> and <code>numCols</code> will cause it to produce images with different sizes.  The file size needs to be large enough so that the running times are measurable and consistent, but smaller files are generally preferable.
+  You’ll also need an appropriate .ppm file to use as input. Square images with
+  side length 800 pixels (800x800.ppm) and 1600 pixels (1600x1600.ppm) are
+  provided.  Other files can be made using the <code>mandelbrot.c</code> code
+  provided with the "Race conditions" lesson in unit 4. Changing the values of
+  <code>numRows</code> and <code>numCols</code> will cause it to produce images
+  with different sizes. The file size needs to be large enough so that the
+  running times are measurable and consistent, but smaller files are generally
+  preferable.
 </p>

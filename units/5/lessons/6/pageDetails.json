@@ -1,6 +1,5 @@
 {
-	"title": "Unit 5 Lesson 6: Using Advanced MPI",
-	"description": "This lesson goes beyond a hello world example and addresses the issues and communication congestion, and provides examples on reducing hits on the performance, modifying functions that will introduce the specific problem and how to solve the problem. The main goal of this lesson is to show how to increase speed and reduce the problems.",
-	"developer": "Hyacinthe Aboudja",
-	"institution": "Oklahoma City University"
+  "title": "Unit 5 Lesson 6: Convolution/Stencil Code in MPI",
+  "description": "This lesson introduces the convolution/stencil algorithm. The implementation for the 5 stencil <u>serial</u> code applied to a simple heat transfer simulation is presented and profiled. The lesson explains at a high level how to solve and accelerate the code in MPI with a timing comparison of serial vs distributed graphs; the code can be run on a laptop and shows how to run on a cluster assuming access to Blue Waters or another supercomputer. The lesson is followed by an activity about changing the code to 3D. The code is also in OpenMP (different unit) so their execution time can be compared.",
+  "developer": "Maria Pantoja"
 }

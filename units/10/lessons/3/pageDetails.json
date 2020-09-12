@@ -1,5 +1,5 @@
 {
-  "title": "Unit 10 Lesson 3: Visualization",
-  "description": "Visualization of large-scale simulations using petascale resources.",
-  "developer": "Juan R. Perilla"
+  "title": "Unit 10 Lesson 3: Visualization 1",
+  "description": "This lesson focuses on transforming a floating-point number image cube into a movie loop animation. Images are generated using a two-dimensional time-dependent partial differential equation scientific application solving for acoustic waves. The time-dependent partial differential equation is solved, and in the process a file is written to generate a visual animation. The program results are presented in a grayscale ImageMagik movie loop. A conversion program converts the movie frame of floating-point numbers into a grayscale .png file.",
+  "developer": "R. Phillip Bording"
 }

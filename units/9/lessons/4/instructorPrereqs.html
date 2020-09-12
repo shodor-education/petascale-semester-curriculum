@@ -1,6 +1,29 @@
 <p>
-In terms of knowledge and background, the instructor prerequisites are the same as the student ones.
+  Before teaching this lesson, the instructor should have:
 </p>
-<p>
-In preparation for using the lesson, the instructor should test the given code on their platform to ensure that it shows the effect of false sharing.  In particular, they may want to customize the size of image being given so that the measured part of the running time is stable for both the false sharing (i.e. small multiplier) and non-false sharing (i.e. large multiplier) versions of the code.  Images of any size can be created by running the mandelbrot.c code from the “Race conditions” lesson of unit 4; simply modify the variables <code>numRows</code> and <code>numCols</code> (ideally keeping them the same).
+<ul>
+  <li>
+    Familiarity with uniprocessor caching, including that each cache line
+    stores more data than is needed to satisfy a single memory request.
+  </li>
+  <li>
+    Enough comfort with C and OpenMP to understand the lab code. The code uses
+    a parallel block and the function calls <code>omp_get_thread_num</code>
+    and <code>omp_get_num_threads</code> (the functions are briefly defined).
+  </li>
+  <li>
+    Tested the given code on their platform to ensure that it shows the effect
+    of false sharing. In particular, they may want to customize the size of
+    image being given so that the measured part of the running time is stable
+    for both the false sharing (i.e. small multiplier) and non-false sharing
+    (i.e. large multiplier) versions of the code.  Images of any size can be
+    created by running the mandelbrot.c code from the "Race conditions" lesson
+    of unit 4; simply modify the variables <code>numRows</code> and
+    <code>numCols</code> (ideally keeping them the same).
+  </li>
+  <li>
+    Explored the Mandelbrot example from the "Race conditions" lesson (this
+    is not strictly necessary, however, since the example just looks at the
+    output).
+  </li>
 </p>

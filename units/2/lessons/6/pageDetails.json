@@ -1,6 +1,5 @@
 {
-    "title": "Unit 2 Lesson 6: Parallel Algorithms 2",
-    "description": "This lesson provides a more in-depth look at some parallel algorithms, including how to move from sequential solutions to parallel ones.",
-    "developer": "Beau Christ",
-    "institution": "Wofford College"
+  "title": "Unit 2 Lesson 6: Parallel Algorithms 2",
+  "description": "This lesson provides a more in-depth look at some parallel algorithms, including how to move from sequential solutions to parallel ones.",
+  "developer": "Beau Christ"
 }
