@@ -1,5 +1,5 @@
 {
   "title": "Unit 7 Lesson 5: Adding 2 vectors in CUDA",
-  "description": "A simple example for CUDA using vector addition.",
+  "description": "This lesson uses a simple CUDA example of vector addition.",
   "developer": "Sanish Rai"
 }
