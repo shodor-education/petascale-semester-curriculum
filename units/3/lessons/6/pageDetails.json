@@ -1,5 +1,5 @@
 {
-  "title": "Unit 3 Lesson 6: Scaling on a Cluster 1",
-  "description": "Able to use gnu-parallel and other scheduler-based mechanisms to run multiple tasks (non-MPI)",
-  "developer": "Linh B. Ngo"
+  "title": "Unit 3 Lesson 6: Running Code on a Cluster 2",
+  "description": "This lesson focuses on software environment and tools available on Compute Canada supported supercomputers. While Cedar supercomputer will be used as an example, the concepts could be applied to any cluster/supercomputer with as little as just few syntax modifications.",
+  "developer": "Mobeen Ludin"
 }

@@ -1,5 +1,5 @@
 {
-  "title": "Unit 3 Lesson 8: Scaling on a Cluster 3",
-  "description": "This lesson covers understanding the output of SLURM jobs and how the number of resources affects completion time.",
-  "developer": "Michael N. Groves"
+  "title": "Unit 3 Lesson 8: Scaling on a Cluster 2",
+  "description": "This lesson covers job submission using a scheduler (SLURM)",
+  "developer": "Hyacinthe Aboudja"
 }
