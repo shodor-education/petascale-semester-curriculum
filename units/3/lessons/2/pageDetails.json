@@ -1,5 +1,5 @@
 {
   "title": "Unit 3 Lesson 2: Parallel Architecture 2",
-  "description": "Evaluate a loop to see if it is a candidate for parallelization using a vector architecture, predict performance of a loop on a vector architecture, employ Foster’s methodology for designing parallel programs for a given architecture.",
+  "description": "In this lesson, students evaluate a loop to see if it is a candidate for parallelization using a vector architecture, predict performance of a loop on a vector architecture, and employ Foster's methodology for designing parallel programs for a given architecture.",
   "developer": "Peter J. Hawrylak"
 }

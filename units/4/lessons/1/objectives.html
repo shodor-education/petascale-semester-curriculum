@@ -1,12 +1,27 @@
 <p>
-After completing this lesson, students will be able to do the following:
+  By the end of this lesson, students will be able to:
 </p>
 <ul>
-	<li>Define a race condition and give an example where it occurs in everyday life</li>
-	<li>Use the parallel for pragma of OpenMP to parallelize for loops</li>
-	<li>Identify and resolve the following types of race conditions in parallel for loops: </li>
-	<ul>
-		<li>A variable that should not be shared between iterations (resolved by adding a private declaration to the pragma or moving the variable declaration into the loop)</li>
-		<li>A variable used in a reduction operation (resolved by adding a reduction pragma)</li> 
-	</ul> 
+  <li>
+    Define a race condition and give an example where it occurs in everyday
+    life.
+  </li>
+  <li>
+    Use the "parallel for" pragma of OpenMP to parallelize "for" loops.
+  </li>
+  <li>
+    Identify and resolve the following types of race conditions in parallel for
+    loops:
+    <ul>
+      <li>
+        A variable that should not be shared between iterations (resolved by
+        adding a private declaration to the pragma or moving the variable
+        declaration into the loop).
+      </li>
+      <li>
+        A variable used in a reduction operation (resolved by adding a
+        reduction pragma).
+      </li>
+    </ul>
+  </li>
 </ul>

@@ -1,5 +1,5 @@
 {
   "title": "Copying Code to a Cluster",
-  "description": "",
+  "description": "This lesson covers the transfer of files from a local computer to a remote cluster, and vice versa. Specifically, the students are introduced to the use of an SFTP client and basic terminal commands (e.g., 'SCP') commonly implemented for sending and receiving files. Lastly, the use of 'dos2unix' and 'mac2unix' commands is discussed in the context of reformatting Windows/Mac files to the Unix standard.",
   "developer": "Roman Voronov"
 }

@@ -1,5 +1,5 @@
 {
   "title": "Unit 3 Lesson 1: Parallel Architecture 1",
-  "description": "Classify a system according to Flynn’s taxonomy (SISD, SIMD, MISD, MIMD) and describe Foster’s methodology for designing parallel programs.",
+  "description": "In this lesson, students classify a system according to Flynn's taxonomy (SISD, SIMD, MISD, MIMD) and describe Foster's methodology for designing parallel programs.",
   "developer": "Peter J. Hawrylak"
 }

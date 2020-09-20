@@ -1,5 +1,5 @@
 {
   "title": "Unit 3 Lesson 7: Scaling on a Cluster 1",
-  "description": "Able to use gnu-parallel and other scheduler-based mechanisms to run multiple tasks (non-MPI)",
+  "description": "This lesson shows students how to use gnu-parallel and other scheduler-based mechanisms to run multiple tasks (non-MPI).",
   "developer": "Linh B. Ngo"
 }
