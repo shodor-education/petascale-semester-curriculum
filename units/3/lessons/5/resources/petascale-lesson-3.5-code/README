@@ -1,0 +1,25 @@
+This folder contains the examples used to show how to compile and run different parallel code on Stampede2 supercomputer.
+
+Pre-requisites: module load impi
+
+The examples folder contains:
+    - mpi_example.c: this is a simple mpi program prints which MPI process is running on which Core of which node.
+    - runbatch.sh: SLURM batch script. This is an example of submitting jobs using batch scripts.
+	To run the script:
+		$ ./runbatch.sh [executable file]
+
+    - omp_pi_area.c: Simple yet a more scientific example showing how to use OpenMP Reduction clause.
+	This example is used to show how to compile and run OpenMP code on Cedar Compute Canada's cluster.
+	$ make omp_pi_area
+
+    - acc_laplace.c:  Simple yet a more scientific example showing how to use OpenACC compiler directives.
+	This example will show how to swich compilers from intel to pgi, and compile and run OpenACC code
+	$ make acc_laplace
+
+   - mpi_pi_area: Simple yet a more scientific example showing how to use collective communcation
+	routines such as MPI_Bcast and MPI_Reduce as well as some MPI timing routines. This example will show
+	how to compile and run code using openmpi/3.1.2 module.
+	$ make mpi_pi_area
+    - Makefile:   This make file could be used to compile and build the example codes.
+        The make file can be modified to add any other compilers or platforms. It gives the option of selecting
+        the platform and system and will compile with appropriate flags.
