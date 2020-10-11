@@ -1,7 +1,3 @@
-./3/lessons/7/resources/petascale-lesson-3.7-code.tar.gz
-./3/lessons/9/resources/petascale-lesson-3.9-code.tar.gz
-./4/lessons/1/resources/petascale-lesson-4.1-code.tar.gz
-./4/lessons/2/resources/petascale-lesson-4.2-code.tar.gz
 ./4/lessons/4/resources/petascale-lesson-4.4-code.tar.gz
 ./4/lessons/5/resources/petascale-lesson-4.5-code.tar.gz
 ./4/lessons/7/resources/petascale-lesson-4.7-code.tar.gz

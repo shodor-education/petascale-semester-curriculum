@@ -1,0 +1,73 @@
+#!/bin/bash
+# Blue Waters Petascale Semester Curriculum v1.0
+# Unit 3: Using a Cluster
+# Lesson 9: Scaling on a Cluster 3
+# File: parallel_2.job
+# Developed by Michael N. Groves for the Shodor Education Foundation, Inc.
+#
+# Copyright (c) 2020 The Shodor Education Foundation, Inc.
+#
+# Browse and search the full curriculum at
+# <http://shodor.org/petascale/materials/semester-curriculum>.
+#
+# We welcome your improvements! You can submit your proposed changes to this
+# material and the rest of the curriculum in our GitHub repository at
+# <https://github.com/shodor-education/petascale-semester-curriculum>.
+#
+# We want to hear from you! Please let us know your experiences using this
+# material by sending email to petascale@shodor.org
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published
+# by the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+### set the number of nodes
+### set the number of PEs per node.
+### Change the number after 'ppn' to request more/less resources to get timing information
+### Be sure to change the number at the execution stage to match the number of core here
+#PBS -l nodes=1:ppn=2:xe
+### set the wallclock time. Format is HH:MM:SS.  5 mins should be fine
+#PBS -l walltime=00:05:00
+### set the job name. Use a name that reflects the number of PEs
+#PBS -N MPI_PI_Test
+### set the job stdout and stderr
+#PBS -e $PBS_JOBID.err
+#PBS -o $PBS_JOBID.out
+### Set the queue
+#PBS -q debug
+### Set umask so users in my group can read job stdout and stderr files
+#PBS -W umask=0027
+
+# NOTE: lines that begin with "#PBS" are not interpreted by the shell but ARE
+# used by the batch system, wheras lines that begin with multiple # signs,
+# like "##PBS" are considered "commented out" by the batch system
+# and have no effect.
+
+# If you launched the job in a directory prepared for the job to run within,
+# you'll want to cd to that directory
+# [uncomment the following line to enable this]
+cd $PBS_O_WORKDIR
+
+# To add certain modules that you do not have added via ~/.modules
+. /opt/modules/default/init/bash # NEEDED to add module commands to shell
+# for zsh instead use
+# . /etc/zsh.zshrc.local
+#module load craype-hugepages2M  perftools
+
+### launch the application
+### redirecting stdin and stdout if needed
+### NOTE: (the "in" file must exist for input)
+### Be sure to change the number after '-n' to match the number of core requested
+
+aprun -n 2 ./mpi_pi_area.exe
+
+### For more information see the man page for aprun
