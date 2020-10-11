@@ -1,6 +1,6 @@
 /* Blue Waters Petascale Semester Curriculum v1.0
  * Unit 3: Using a Cluster
- * Lesson 5: Running Code on a Cluster 1
+ * Lesson 6: Running Code on a Cluster 2
  * File: mpi_pi_area.c
  * Developed by Mobeen Ludin for the Shodor Education Foundation, Inc.
  *
@@ -30,27 +30,21 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-
 /*******************************************************************************
  * This is a simple program that shows the numerical integration example.
  * It computes pi by approximating the area under the curve:
  *      f(x) = 4 / (1+x*x) between 0 and 1.
  * To do this intergration numerically, the interval from 0 to 1 is divided into
- * some number (num_sub_intervals) subintervals and added up the area of
- * rectangles
- * The larger the value of the num_sub_interval the more accurate your result
- * will be.
+ * some number (num_sub_intervals) subintervals and added up the area of rectangles
+ * The larger the value of the num_sub_interval the more accurate your result will be.
  *
  * The program first asks the user to input a value for subintervals, it
- * computes the approximation for pi, and then compares it to a more accurate
- * approximate value of pi in the math.h library.
+ * computes the approximation for pi, and then compares it to a more accurate aproximate 
+ * value of pi in the math.h library.
  *
- * This program is parallelized using MPI collective communication operations
- * such as:
- * 	- MPI_Bcast(...): when one process sends message to all other process in the
- *                    pool
- *	- MPI_Reduce(...): when one process recvies/collects messages from every one
- *                     else 
+ * This program is parallelized using MPI collective communication operations such as:
+ * 	- MPI_Bcast(...): when one process sends message to all other process in the pool
+ *	- MPI_Reduce(...): when one process recvies/collects messages from every one else 
  *
  * How to Setup Runtime Environment:
  *  $ qsub -I -l nodes=2:ppn=32:xe,walltime=01:30:00 -l advres=bwintern

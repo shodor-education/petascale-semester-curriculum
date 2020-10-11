@@ -1,3 +1,23 @@
+# Blue Waters Petascale Semester Curriculum v1.0
+# Unit 3: Using a Cluster
+# Lesson 5: Running Code on a Cluster 1
+# File: README
+# Developed by Juan R. Perilla for the Shodor Education Foundation, Inc.
+#
+# This README by The Shodor Education Foundation, Inc. is licensed under
+# CC BY-SA 4.0. To view a copy of this license, visit
+# <https://creativecommons.org/licenses/by-sa/4.0>.
+#
+# Browse and search the full curriculum at
+# <http://shodor.org/petascale/materials/semester-curriculum>.
+#
+# We welcome your improvements! You can submit your proposed changes to this
+# material and the rest of the curriculum in our GitHub repository at
+# <https://github.com/shodor-education/petascale-semester-curriculum>.
+#
+# We want to hear from you! Please let us know your experiences using this
+# material by sending email to petascale@shodor.org
+
 This folder contains the examples used to show how to compile and run different parallel code on Stampede2 supercomputer.
 
 Pre-requisites: module load impi

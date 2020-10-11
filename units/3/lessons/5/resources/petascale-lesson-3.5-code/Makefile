@@ -1,7 +1,7 @@
 # Blue Waters Petascale Semester Curriculum v1.0
 # Unit 3: Using a Cluster
 # Lesson 5: Running Code on a Cluster 1
-# Makefile
+# File: Makefile
 # Developed by Juan R. Perilla for the Shodor Education Foundation, Inc.
 #
 # Copyright (c) 2020 The Shodor Education Foundation, Inc.

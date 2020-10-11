@@ -1,6 +1,6 @@
 /* Blue Waters Petascale Semester Curriculum v1.0
  * Unit 3: Using a Cluster
- * Lesson 5: Running Code on a Cluster 1
+ * Lesson 6: Running Code on a Cluster 2
  * File: mpi_example.c
  * Developed by Aaron Weeden for the Shodor Education Foundation, Inc.
  *
@@ -29,7 +29,6 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-
 #include <mpi.h>
 #include <sched.h>
 #include <stdio.h>

@@ -1,6 +1,6 @@
 /* Blue Waters Petascale Semester Curriculum v1.0
  * Unit 3: Using a Cluster
- * Lesson 5: Running Code on a Cluster 1
+ * Lesson 6: Running Code on a Cluster 2
  * File: omp_pi_area.c
  * Developed by Mobeen Ludin for the Shodor Education Foundation, Inc.
  *
@@ -40,9 +40,7 @@
  *  $ export OMP_NUM_THREADS=8
  * How to Run on Blue Waters: 
  *  $ aprun -n 1 -d 8 ./omp_pi_area.exe
- *
  * How to Run on Cedar Supercomputer:
- *  $ export OMP_NUM_THREADS=8
  *  $ ./omp_pi_area.exe
  *************************************************************/
 /*******************************************************************************
@@ -66,7 +64,7 @@
 #include <omp.h>
 
 int main(int argc, char *argv[]) {
-    int num_rect = 10;   // number of rectangles
+    int num_rect = 0;   // number of rectangles
     double x_midp, pi;
     double sum = 0.0;
     double rect_width;
