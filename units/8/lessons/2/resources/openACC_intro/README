@@ -1,0 +1,19 @@
+This folder contains the examples and exerciese used in the Introduction to OpenACC module
+
+The examples folder contains:
+    - vect_add.c:   This is the first and simple vector addition example that shows
+        primmary directives for creating parallel regions, and copying data between host and device (accelarator)
+
+    - laplace_bad_acc.c:   This example demonostrate the use of OpenACC Kernel directives that also takes care of data
+        Compilers may not be very good at recognizing when to move which data from host to device or vice versa.
+        Therefore, creating a data region with #pragma acc data directive would solve the issue.
+
+    - laplace_acc.c     This example show a more correct way of using openacc kernel directives.
+
+    - Makefile:     This make file could be used to compile and build the example codes.
+        The make file can be modified to add any other compilers or platforms. It gives the option of selecting
+        the platform and system and will compile with appropriate flags.
+
+    gpu_modules: this file has information for different platforms PGI, Cray, GNU on BW and which modules you
+        need to load based on the desired environment.
+
