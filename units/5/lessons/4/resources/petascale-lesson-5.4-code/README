@@ -1,4 +1,24 @@
-This folder contains the examples userd to for performance evaluation of MPI applications on BW
+# Blue Waters Petascale Semester Curriculum v1.0
+# Unit 5: MPI
+# Lesson 5: Using Advanced MPI
+# File: README
+# Developed by Hyacinthe Aboudja for the Shodor Education Foundation, Inc.
+#
+# This README by The Shodor Education Foundation, Inc. is licensed under
+# CC BY-SA 4.0. To view a copy of this license, visit
+# <https://creativecommons.org/licenses/by-sa/4.0>.
+#
+# Browse and search the full curriculum at
+# <http://shodor.org/petascale/materials/semester-curriculum>.
+#
+# We welcome your improvements! You can submit your proposed changes to this
+# material and the rest of the curriculum in our GitHub repository at
+# <https://github.com/shodor-education/petascale-semester-curriculum>.
+#
+# We want to hear from you! Please let us know your experiences using this
+# material by sending email to petascale@shodor.org
+
+This folder contains the examples used for performance evaluation of MPI applications on BW
 
 The GalaxSee-v2 folder contains:
     - The code (*.c, *.h) for an n-body simulation of multiple interacting objects developped by 
@@ -15,7 +35,7 @@ How to compile:
 	Compile without graphical simulation from the parent folder:
 	$ make NO_X11=1 build-all
 
-	To compile from teh GalaxSee-v2 simulation folder:
+	To compile from the GalaxSee-v2 simulation folder:
 	$ make NO_X11=1
 	
 	To clean:
