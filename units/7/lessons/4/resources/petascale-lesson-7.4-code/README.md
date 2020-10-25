@@ -1,0 +1,1 @@
+These project files are from the folks at NVidia. I have made minor modifications to remove the build instructions and make them more simple for students. Please review the license and the official download here: http://developer.download.nvidia.com/compute/DevZone/C/html_x64/Volume_Processing.html
