@@ -1,0 +1,133 @@
+# Blue Waters Petascale Semester Curriculum v1.0
+# File: MPI-OpenMP-Pebble/openmpimp/README
+# Developed by R. Phillip Bording for the Shodor Education Foundation, Inc.
+# Included in the following lessons:
+# - Unit 5 (MPI) Lesson 10: Wave Propagation in MPI
+# - Unit 6 (Hybrid MPI + OpenMP) Lesson 3: Pebble in Pond Wave Equation
+# - Unit 8 (OpenACC) Lesson 1: Accelerating Scientific Applications
+# - Unit 10 (Productivity and Visualization) Lesson 3: Visualization 1
+#
+# This file by The Shodor Education Foundation, Inc. is licensed under
+# CC BY-SA 4.0. To view a copy of this license, visit
+# <https://creativecommons.org/licenses/by-sa/4.0>.
+#
+# Browse and search the full curriculum at
+# <http://shodor.org/petascale/materials/semester-curriculum>.
+#
+# We welcome your improvements! You can submit your proposed changes to this
+# material and the rest of the curriculum in our GitHub repository at
+# <https://github.com/shodor-education/petascale-semester-curriculum>.
+#
+# We want to hear from you! Please let us know your experiences using this
+# material by sending email to petascale@shodor.org
+
+
+   Working MPI code with OpenMP directives on major loops
+   
+   Pebble Processing  -- making a movie loop 
+                      -- run some version of code..
+
+1)   four basic codes exist in this lesson
+
+       1) pebble.f                    scalar code version
+       2) pebble_openmp.f             openmp version
+       3) pebble_mpi.f                mpi version
+       4) pebble_mpimp.f              mpi and openmp version
+
+     ALL  solve the acoustic wave equation on a two dimensional grid.
+     ALL  run for several hundred time steps.
+     ALL  generate output files in the data directory.
+     ALL  produce a movie loop file that can be post processed into
+          a GraphicsMagick animation.
+
+     The directory mimage has a post processing routine: tpebO.c
+         which transforms the data/*.dat files into data/*.png files.
+
+     These data/pebble*png are in sequence and if you use GraphicsMagick tools
+     you can create a visual movie of pebble in the pond waves.
+
+     The program sequence follows:
+
+     run these scripts in MPI-OpenMP-Pebble
+
+     ./clean.sh
+
+     ./run_pebble.sh
+
+     cd ../mimage
+
+     ./tpebO
+
+     cd ../MPI-OpenMP-Pebble
+
+     ./runpmovie.sh
+
+     Now you should have a movie from graphicsmagick.
+-----------------------------------------------------------------
+     If you run the MPI code instead you use the same sequence of scripts.
+
+     run these scripts in MPI-OpenMP-Pebble
+
+     ./clean.sh
+
+     ./run_pebble_mpi.sh
+
+     cd ../mimage
+
+     ./tpebO
+
+     cd ../MPI-OpenMP-Pebble
+
+     ./runpmovie.sh
+
+     Now you should have a movie from graphicsmagick.
+
+
+
+---------------- Programs for testing ideas ----------------
+
+----------------- Gray Scale Pixel Example -----------------
+
+To develop gray scale maps from floating point numbers,
+two test codes are availble cfrgb.c and cmap.f.
+
+Using the run scripts runcfrgb or runcmap tables of floating point
+numbers bounded by a max postive and max negative number are
+converts into a list of gray scale pixels.  
+
+
+----------------- Examine Pebble_MPI movie files -----------
+
+Once a Pebble_MPI run is complete, the data files are stored in
+the data directory.  
+
+There are three files.
+ 
+pebble.hdr
+pebble.mvlp
+pebble.filenames
+
+If you run cmovie.c using the bash script runcmovie, then an analysis of each
+movie frame maximum positve and maximum negative number is generated.
+
+A listing of the filenames for each movie frame is presented.
+
+cmovie only reads these files for you to inspect.
+
+----------------- Examine Pebble_MPI movie hdr file --------
+
+Once a Pebble_MPI run is complete, the data files are stored in
+the data directory.  
+
+There are three files.
+ 
+pebble.hdr
+pebble.mvlp
+pebble.filenames
+
+If you run cmoviehead.c using the bash script runcmoviehead,
+the data from the pebble.hdr file is printed out.
+
+
+
+
