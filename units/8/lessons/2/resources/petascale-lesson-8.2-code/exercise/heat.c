@@ -1,3 +1,35 @@
+/* Blue Waters Petascale Semester Curriculum v1.0
+ * Unit 8: OpenACC
+ * Lesson 2: Intro to OpenACC
+ * File: exercise/heat.c
+ * Developed by Aaron Weeden for the Shodor Education Foundation, Inc.
+ *
+ * Copyright (c) 2020 The Shodor Education Foundation, Inc.
+ *
+ * Browse and search the full curriculum at
+ * <http://shodor.org/petascale/materials/semester-curriculum>.
+ *
+ * We welcome your improvements! You can submit your proposed changes to this
+ * material and the rest of the curriculum in our GitHub repository at
+ * <https://github.com/shodor-education/petascale-semester-curriculum>.
+ *
+ * We want to hear from you! Please let us know your experiences using this
+ * material by sending email to petascale@shodor.org
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published
+ * by the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
 /* Model of heat diffusion - a 2D rectangular environment has its left edge with
    a fixed non-zero heat; the other 3 edges have fixed zero heat. The middle of 
    the environment starts with zero heat, but as the model advances, the heat
@@ -84,14 +116,7 @@ void Finalize();
 int main()
 {
   Init();
-
-  #pragma acc data copyin(Heats[0:CellCount], \
-                       NewHeats[0:CellCountWithoutEdges]) \
-                   create(Diffs[0:CellCountWithoutEdges])
-  {
-    Simulate();
-  }
-
+  Simulate();
   Finalize();
   return 0;
 }
@@ -198,12 +223,7 @@ void Simulate()
   {
     SetNewHeats();
     PrintOutputStr();
-
-    #pragma acc update device(NewHeats[0:CellCountWithoutEdges])
-
     AdvanceHeats();
-
-    #pragma acc update host(Heats[0:CellCount])
   }
 }
 
@@ -218,12 +238,7 @@ void SetNewHeats()
     SetOutputStr(NEW_TO_OLD(cellIdx));
   }
 
-  #pragma acc update device(Heats[0:CellCount])
-
   AverageNeighborHeats();
-
-  #pragma acc update host(NewHeats[0:CellCountWithoutEdges], \
-                             Diffs[0:CellCountWithoutEdges])
 
   // Prepare to stop the simulation if the heat is not changing much
   float totalDiff = 0.0;
@@ -242,9 +257,6 @@ void SetNewHeats()
 //                 Diffs has been updated at TimeIdx and cellIdx
 void AverageNeighborHeats()
 {
-  #pragma acc parallel loop present(Heats[0:CellCount], \
-                                 NewHeats[0:CellCountWithoutEdges], \
-                                    Diffs[0:CellCountWithoutEdges])
   for (int cellIdx = 0; cellIdx < CellCountWithoutEdges; cellIdx++)
   {
     NewHeats[cellIdx] = 0.25 * (Heats[NEW_TO_OLD(cellIdx) - COLUMN_COUNT] +
@@ -267,8 +279,6 @@ void PrintOutputStr()
 // Postconditions: Heats has been updated at TimeIdx
 void AdvanceHeats()
 {
-  #pragma acc parallel loop present(Heats[0:CellCount], \
-                                 NewHeats[0:CellCountWithoutEdges])
   for (int cellIdx = 0; cellIdx < CellCountWithoutEdges; cellIdx++)
   {
     Heats[NEW_TO_OLD(cellIdx)] = NewHeats[cellIdx];
