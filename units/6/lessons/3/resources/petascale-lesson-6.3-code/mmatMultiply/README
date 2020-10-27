@@ -1,0 +1,118 @@
+# Blue Waters Petascale Semester Curriculum v1.0
+# File: mmatMultiply/README
+# Developed by R. Phillip Bording for the Shodor Education Foundation, Inc.
+# Included in the following lessons:
+# - Unit 5 (MPI) Lesson 10: Wave Propagation in MPI
+# - Unit 6 (Hybrid MPI + OpenMP) Lesson 3: Pebble in Pond Wave Equation
+# - Unit 8 (OpenACC) Lesson 1: Accelerating Scientific Applications
+# - Unit 10 (Productivity and Visualization) Lesson 3: Visualization 1
+#
+# This file by The Shodor Education Foundation, Inc. is licensed under
+# CC BY-SA 4.0. To view a copy of this license, visit
+# <https://creativecommons.org/licenses/by-sa/4.0>.
+#
+# Browse and search the full curriculum at
+# <http://shodor.org/petascale/materials/semester-curriculum>.
+#
+# We welcome your improvements! You can submit your proposed changes to this
+# material and the rest of the curriculum in our GitHub repository at
+# <https://github.com/shodor-education/petascale-semester-curriculum>.
+#
+# We want to hear from you! Please let us know your experiences using this
+# material by sending email to petascale@shodor.org
+
+
+The mmatrix.f code is designed to test processor speed 
+on doing simple matrix multipy in Fortran.
+
+!! remember the time command times are for 10 LOOPS over the 
+!!              matrix multiply 
+
+Scaling studies and algorithm complexity are discussed here.
+
+Compile using the run script ->  runmxm.sh
+Execute using the Linux time command
+
+time mmatrix
+
+!! remember the time command times are for 10 LOOPS over the 
+!!              matrix multiply 
+
+       Below the six cases for loops are shown.
+
+       The do/for Fortran/C  loops
+       can be tested in the following manner:
+
+Case 1
+       do ix=1,ndx
+        do jy=1,ndy
+         do kz=1,ndz
+
+Case 2
+       do ix=1,ndx
+         do kz=1,ndz
+        do jy=1,ndy
+
+Case 3
+        do jy=1,ndy
+       do ix=1,ndx
+         do kz=1,ndz
+
+Case 4
+        do jy=1,ndy
+         do kz=1,ndz
+       do ix=1,ndx
+
+Case 5
+         do kz=1,ndz
+       do ix=1,ndx
+        do jy=1,ndy
+
+Case 6
+         do kz=1,ndz
+        do jy=1,ndy
+       do ix=1,ndx
+
+
+There is NO guarantee that the intial loop ordering is optimal.
+In fact, it is probably not optimal.
+
+Once, the test is complete for the 6 loop cases, then
+change the matrix sizes to bigger and smaller sizes. 
+
+Like 1024x1024 and 2048x2048.   Also try 2051 by 2051.
+
+The number 2051 has to be larger than the power of 2, and
+relatively prime to the number 2.
+
+!! remember the time command times are for 10 LOOPS over the 
+!!              matrix multiply 
+
+
+Algorithm complexity for this program is:
+
+       do ix=1,ndx
+         do kz=1,ndz
+!          set three arrays to zero                --> 3 n^2
+         enddo
+       enddo
+
+       do ix=1,ndx
+        do jy=1,ndy
+         do kz=1,ndz
+!          multiply  arrays do multipy and add     --> 2 n^3
+         enddo
+        enddo
+       enddo
+
+Complexity is:         O(2n^3 + 3n^2)
+
+If n is large the n^2 terms can be neglected.
+
+
+
+
+
+
+
+

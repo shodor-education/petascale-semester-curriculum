@@ -1,0 +1,27 @@
+checking for gcc... gcc
+checking whether the C compiler (gcc  ) works... yes
+checking whether the C compiler (gcc  ) is a cross-compiler... no
+checking whether we are using GNU C... yes
+checking how to run the C preprocessor... gcc -E
+checking for function prototypes... yes
+checking for stddef.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for size_t... yes
+checking for type unsigned char... yes
+checking for type unsigned short... yes
+checking for type void... yes
+checking for working const... yes
+checking for inline... __inline__
+checking for broken incomplete types... ok
+checking for short external names... ok
+checking to see if char is signed... yes
+checking to see if right shift is signed... yes
+checking to see if fopen accepts b spec... yes
+checking for a BSD compatible install... /usr/bin/install -c
+checking for ranlib... ranlib
+checking libjpeg version number... 62
+creating ./config.status
+creating Makefile
+creating jconfig.h
+jconfig.h is unchanged

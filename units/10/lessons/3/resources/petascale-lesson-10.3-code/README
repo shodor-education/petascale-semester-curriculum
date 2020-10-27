@@ -1,0 +1,58 @@
+# Blue Waters Petascale Semester Curriculum v1.0
+# File: README
+# Developed by R. Phillip Bording for the Shodor Education Foundation, Inc.
+# Included in the following lessons:
+# - Unit 5 (MPI) Lesson 10: Wave Propagation in MPI
+# - Unit 6 (Hybrid MPI + OpenMP) Lesson 3: Pebble in Pond Wave Equation
+# - Unit 8 (OpenACC) Lesson 1: Accelerating Scientific Applications
+# - Unit 10 (Productivity and Visualization) Lesson 3: Visualization 1
+#
+# This file by The Shodor Education Foundation, Inc. is licensed under
+# CC BY-SA 4.0. To view a copy of this license, visit
+# <https://creativecommons.org/licenses/by-sa/4.0>.
+#
+# Browse and search the full curriculum at
+# <http://shodor.org/petascale/materials/semester-curriculum>.
+#
+# We welcome your improvements! You can submit your proposed changes to this
+# material and the rest of the curriculum in our GitHub repository at
+# <https://github.com/shodor-education/petascale-semester-curriculum>.
+#
+# We want to hear from you! Please let us know your experiences using this
+# material by sending email to petascale@shodor.org
+
+
+       The mimage graphics supports all four lessons.
+
+       Lessons in this package:
+       MPI-Waves
+       MPI-OpenMP-Pebble
+       OpenACC-Pebble
+       Vis-Movie
+
+       Animation tool directory:
+       mimage
+
+       Data cleanup tools:
+       superls.sh
+       superclean.sh
+
+       Some simple test codes:
+       MAKEtest
+       mmatMultiply
+       testGraphicsMagick
+
+       ----------------  
+
+       superls.sh shows the contents for the movie loop data directories
+
+         these data/pebb*png files can get really big and superls
+         makes a listing of them.
+
+         the MPI codes write temporary files for making movies
+
+         these files are in the temp_fort directories
+
+       superclean.sh removes these data files.....
+
+	
