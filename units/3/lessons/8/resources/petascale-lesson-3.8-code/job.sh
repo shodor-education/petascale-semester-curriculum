@@ -2,7 +2,7 @@
 # Blue Waters Petascale Semester Curriculum v1.0
 # Unit 3: Using a Cluster
 # Lesson 8: Scaling on a Cluster 2
-# File: myJobProcessCount_mpi
+# File: job.sh
 # Developed by Hyacinthe Aboudja for the Shodor Education Foundation, Inc.
 #
 # Copyright (c) 2020 The Shodor Education Foundation, Inc.
@@ -35,14 +35,14 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=40
 #SBATCH --ntasks-per-node=20
-#SBATCH --output=jobhello_mpi_%J_stdout.txt
-#SBATCH --error=jobhello_mpi_%J_stderr.txt
+#SBATCH --output=mpi_hello_%J_stdout.txt
+#SBATCH --error=mpi_hello_%J_stderr.txt
 #SBATCH --time=10:00
-#SBATCH --job-name=jobhello_mpi
+#SBATCH --job-name=mpi_hello
 #SBATCH --mail-user=haboudja@okcu.edu
 #SBATCH --mail-type=ALL
 #SBATCH --chdir=/home/haboudj/ShCurric
 
 
 module load OpenMPI
-mpirun hello.mpi -n 4
+mpirun mpi_hello -n 4

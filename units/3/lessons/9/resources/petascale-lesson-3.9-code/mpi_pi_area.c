@@ -126,7 +126,7 @@ int main(int argc, char *argv[]) {
     printf("computed pi value is = %g (%17.15f)\n\n", pi_tot,pi_tot);
     printf("M_PI accurate value from math.h is: %17.15f \n\n", M_PI);
     printf("Difference between computed pi and math.h M_PI = %17.15f\n\n",
-	   fabs(pi_tot - M_PI));
+      fabs(pi_tot - M_PI));
     printf("Time to compute = %g seconds\n\n", time_diff);
   }
   // Line is for end of parallel regions of the code.
