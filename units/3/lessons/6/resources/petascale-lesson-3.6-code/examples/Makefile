@@ -100,8 +100,8 @@ endif
 
 mpi_pi_area:
 	$(MPICC) -o mpi_pi_area.exe mpi_pi_area.c   
-acc_laplace:
-	$(CC) $(ACCFLAGS) -o acc_laplace.exe acc_laplace.c
+diffusion:
+	$(CC) $(ACCFLAGS) -o diffusion.exe diffusion.c
 omp_pi_area:
 	$(CC) $(OMPFLAGS) -o omp_pi_area.exe omp_pi_area.c
 mpi_example:
@@ -109,6 +109,6 @@ mpi_example:
 
 all:
 	make clean
-	make mpi_pi_area acc_laplace omp_pi_area mpi_example
+	make mpi_pi_area diffusion omp_pi_area mpi_example
 clean:
 	rm -rf *.exe *.ptx *.cub

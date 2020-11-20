@@ -32,10 +32,10 @@ The examples folder contains:
 	This example is used to show how to compile and run OpenMP code on Cedar Compute Canada's cluster.
 	$ make omp_pi_area
 
-    - acc_laplace.c:  Simple yet a more scientific example showing how to use OpenACC compiler directives.
+    - diffusion.c:  Simple yet a more scientific example showing how to use OpenACC compiler directives.
 	This example will show how to swich compilers from intel to pgi, and compile and run OpenACC code
 	$ module swap icc/.2018.3.222 pgi/19.4
-	$ make acc_laplace
+	$ make diffusion
 
    - gpu_jobs.sbatch: this is an example of requesting nodes with gpus:
 	$ sbatch gpu_jobs.sbatch

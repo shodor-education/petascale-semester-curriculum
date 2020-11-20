@@ -35,7 +35,7 @@
 ### By design, Cedar supports multiple simultaneous parallel jobs of up to 1024 broadwell cores (32 nodes) or 1536 skylake cores 
 ### (32 nodes) or 1536 cascade lake cores (32 nodes)in a fully non-blocking manner.
 #SBATCH --account=def-mludin  		# account to charge the allocation to
-#SBATCH --job-name=acc_laplace		# simple core affeninty example
+#SBATCH --job-name=diffusion		# simple core affininty example
 #SBATCH --gres=gpu:p100:1		# This request 1 Nvidia 12G P100 device per node, for 16G use: --gres=gpu:p100l:1, for 32G: --gres=gpu:v100l:1
 #SBATCH --nodes=1			# number of nodes for the job
 #SBATCH --ntasks=1			# number of MPI process, for hybrid change the value
@@ -47,4 +47,4 @@ echo "Hostname is: `hostname`"
 echo "Nvidia-smi info is:"
 nvidia-smi
 echo "Current working directory is: `pwd`"
-srun ./acc_laplace.exe 		# mpirun or mpiexec also works
+srun ./diffusion.exe 		# mpirun or mpiexec also works
