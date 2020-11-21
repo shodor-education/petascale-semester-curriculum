@@ -1,3 +1,35 @@
+/* Blue Waters Petascale Semester Curriculum v1.0
+ * Unit 4: OpenMP
+ * Lesson 5: Convolution in OpenMP (Heat Transfer example)
+ * File: heatTransferOpenMP.c
+ * Developed by Maria Pantoja for the Shodor Education Foundation, Inc.
+ *
+ * Copyright (c) 2020 The Shodor Education Foundation, Inc.
+ *
+ * Browse and search the full curriculum at
+ * <http://shodor.org/petascale/materials/semester-curriculum>.
+ *
+ * We welcome your improvements! You can submit your proposed changes to this
+ * material and the rest of the curriculum in our GitHub repository at
+ * <https://github.com/shodor-education/petascale-semester-curriculum>.
+ *
+ * We want to hear from you! Please let us know your experiences using this
+ * material by sending email to petascale@shodor.org
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published
+ * by the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+ 
 /*********************************************************0
 Simplified implementation of a heat transfer problem using stencil
 TempNew=Told+(Tup+Tbotton+Tright+Tleft)/SPEED
@@ -35,7 +67,7 @@ void init(REAL *buff) {
         buff[i*N+j] = 0;
     }
   }
-  //place three initial heat points on the arrasimdy 
+  //place three initial heat points on the array 
   //these heat points are to remain constant
   //buff[10][10] temp=100
   //buff[30][90] temp =200
@@ -47,36 +79,37 @@ void init(REAL *buff) {
 
 
 void heat_tranfer(REAL *restrict f1, REAL *restrict f2, int count) {
-    #pragma omp parallel
-    {
-    REAL *f1_t = f1;  
+  #pragma omp parallel
+  {
+    REAL *f1_t = f1;
     REAL *f2_t = f2;
-    for (int iter = 0; iter < count; iter++) { 
-	#pragma omp for //collapse(2) schedule(dynamic,8)
-	for (int y = 0; y < N; y++) {
-          #pragma omp simd
-          for (int x = 0; x < N; x++) {
-            int center, top, bottom, east, west;
-            center =  y*N+x;
-            west = (x == 0)    ? center : center - 1;
-            east = (x == N-1) ? center : center + 1;
-            top = (y == 0) ? center : center - N;
-	    bottom=(y==N-1) ? center:center +N;
 
-            f2_t[center] = f1_t[center] + (cwest * f1_t[west] + ceast * f1_t[east]
-                + ctop * f1_t[top] + cbotton * f1_t[bottom])/SPEED;
-          }
+    for (int iter = 0; iter < count; iter++) {
+      #pragma omp for //collapse(2) schedule(dynamic,8)
+      for (int y = 0; y < N; y++) {
+        #pragma omp simd
+        for (int x = 0; x < N; x++) {
+          int center, top, bottom, east, west;
+          center =  y*N+x;
+          west = (x == 0)    ? center : center - 1;
+          east = (x == N-1) ? center : center + 1;
+          top = (y == 0) ? center : center - N;
+          bottom=(y==N-1) ? center:center +N;
+
+          f2_t[center] = f1_t[center] + (cwest * f1_t[west] + ceast * f1_t[east]
+            + ctop * f1_t[top] + cbotton * f1_t[bottom])/SPEED;
         }
-  
-        REAL *t = f1_t;
-        f1_t = f2_t;
-        f2_t = t;
-        //original heat focus temperature remain constant
-        f1_t[9*N+9] = 100;
-        f1_t[30*N+90] = 200;
-        f1_t[100*N+100] = 150;
+      }
+
+      REAL *t = f1_t;
+      f1_t = f2_t;
+      f2_t = t;
+      //original heat focus temperature remain constant
+      f1_t[9*N+9] = 100;
+      f1_t[30*N+90] = 200;
+      f1_t[100*N+100] = 150;
     }
-   }
+  }
   return;
 }
 
@@ -86,7 +119,8 @@ void print_result(REAL *f, char *out_path, char *filename) {
   size_t nitems = N*N;
   fwrite(f, sizeof(REAL), nitems, out);
   fclose(out);
-  //only frint fist 10
+
+  //only print first 10
   for (int i= 0; i < 10; i++) {
     printf("\n");
     for (int j = 0; j < 10; j++) {
@@ -109,19 +143,18 @@ void print_result(REAL *f, char *out_path, char *filename) {
   // Writing the maximum gray value 
   fprintf(pgmimg, "255\n");  
   for (int i = 0; i < 100 ; i++) {  
-        fprintf(pgmimg,"\n");
-	//printf("\n");
-	for (int j = 0; j < 100; j++) { 
-		temp = f[i*N+j]; 
-                //make sure temp value is below 255 to be able to display controlled by SPEED
-            	// Writing the gray values in the 2D array to the file 
-                //printf("%d ", (int)temp); 
-            	fprintf(pgmimg, "%d ", (int)temp); 
-        } 
-        fprintf(pgmimg, "\n"); 
+    fprintf(pgmimg,"\n");
+    //printf("\n");
+    for (int j = 0; j < 100; j++) { 
+      temp = f[i*N+j]; 
+      //make sure temp value is below 255 to be able to display controlled by SPEED
+      // Writing the gray values in the 2D array to the file 
+      //printf("%d ", (int)temp); 
+      fprintf(pgmimg, "%d ", (int)temp); 
     } 
-    fclose(pgmimg); 
-
+    fprintf(pgmimg, "\n"); 
+  } 
+  fclose(pgmimg); 
 }
 
 int main(int argc, char *argv[]) 
@@ -141,7 +174,6 @@ int main(int argc, char *argv[])
 
   init(f1);
   print_result(f1, "heatInit.dat","init.pgm");
-  
   printf("Running Heat Transfer Simulation %d times\n", TIMES); fflush(stdout);
   gettimeofday(&time_begin, NULL);
   heat_tranfer(f1, f2, TIMES);
