@@ -1,7 +1,7 @@
 // INSTRUCTIONS HOW TO RUN
 //
-// Compile with: nvcc ./filter.cu ./ppm.cu -o filter
-// Run with    : ./filter
+// Compile with: nvcc ./interop.cu ./ppm.cu -o interop
+// Run with    : ./interop
 
 #include <stdio.h>
 #include <stdlib.h>
