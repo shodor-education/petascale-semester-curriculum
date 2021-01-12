@@ -39,10 +39,10 @@
 !
         Parameter (ndx=512,ndz=512)
 
-        real*4    frame_float(ndx,ndz)
+        real*4    mframe_float(ndx,ndz)
 
-        integer*4 frame_int  (ndx,ndz)
-        integer*4 frame_pixel(ndx,ndz)
+        integer*4 mframe_int  (ndx,ndz)
+        integer*4 mframe_pixel(ndx,ndz)
 
 !
 !      now find the maximum positive value in the float array
