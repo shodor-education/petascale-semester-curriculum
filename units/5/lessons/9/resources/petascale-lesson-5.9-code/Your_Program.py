@@ -32,7 +32,7 @@
 from mpi4py import MPI                 # Imports the MPI Framework
 comm = MPI.COMM_WORLD                  # Saves information about all processes
 rank = comm.Get_rank()                 # Tells this process what rank it is
-print(‘My rank is {}’.format(rank))    # Prints to the screen a process’ rank
+print('My rank is {}'.format(rank))    # Prints to the screen a process’ rank
 
 ####
 #
@@ -41,9 +41,9 @@ print(‘My rank is {}’.format(rank))    # Prints to the screen a process’ r
 ####
 
 #if rank == 0:
-#    print(“Hello World from rank {}”.format(rank))
+#    print('Hello World from rank {}'.format(rank))
 #else:
-#    print(“I am rank {}”.format(rank))
+#    print('I am rank {}'.format(rank))
 
 ####
 #
